@@ -13,7 +13,7 @@ import ExecutedImage1 from "./execution-image1.png";
 import ExecutedImage2 from "./execution-image2.png";
 import ExecutedImage3 from "./execution-image3.png";
 import Location from "./location.png";
-import Verify from "./Verify.png";
+import Verify from "./verify.png";
 import Arrowleft from "./arrow-left.png";
 import Arrowright from "./arrow-right.png";
 import Avatar from "./Avatar.png";
