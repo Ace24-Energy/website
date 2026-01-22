@@ -1,0 +1,45 @@
+:root {
+  --brand-primary-color:#1D9A1D;
+  --brand-secondary-color:#EBFAEB;
+  --brand-primary-dark:#005427;
+  --black-text-color:#1D1F14;
+  --white-text-color:#ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: lato;
+}
+
+.wrapper {
+  max-width: 1309px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* TABLET VERSION */
+@media (max-width: 1040px) {
+  .wrapper {
+    max-width: 800px;
+  }
+}
+
+/* TABLET VERSION */
+@media (max-width: 720px) {
+  .wrapper {
+    max-width: 400px;
+  }
+}

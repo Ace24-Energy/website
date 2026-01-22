@@ -1,0 +1,232 @@
+#main-container-4 {
+    width: 1328px;
+    height: 750px;
+    border-radius: 32px;
+    padding: 40px 32px;
+    background-color: #FAFBEE;
+    margin-top: 80px;
+}
+
+.executed-intro {
+    width: 700px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.executed-intro p {
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--brand-primary-dark);
+    letter-spacing: 1.92px;
+}
+
+.sub-container-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.executed-content {
+    width: 369px;
+    height: 550px;
+}
+
+.execution-image {
+    width: 369px;
+    height: 269px;
+    border-radius: 16px;
+}
+
+.execution-name {
+    width: 250px;
+    height: 47px;
+    background-color: #EEF1C5;
+    padding: 14px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.execution-name p {
+    font-size: 16px;
+    letter-spacing: 0;
+    color: var(--black-text-color);
+    font-weight: 600;
+}
+
+.execution-location {
+    width: 350px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.location-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.execution-location p {
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0;
+    color: #899921;
+}
+
+.execution-details p {
+    font-size: 12.5px;
+    line-height: 16.8px;
+    letter-spacing: 0;
+    color: var(--black-text-color);
+}
+
+.execution-details ul li {
+    font-size: 12.5px;
+    line-height: 16.8px;
+    letter-spacing: 0;
+    color: var(--black-text-color);
+}
+
+.outcome {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.outcome-details {
+    margin-top: 0;
+}
+
+
+/* TABLET VIEW */
+@media (max-width: 1040px) {
+        #main-container-4 {
+            height: 600px;
+            border-radius: 16px;
+            padding: 20px 17px;
+            margin-top: 70px;
+        }
+    
+        .executed-intro {
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+    
+        .executed-intro p {
+            font-size: 27px;
+            line-height: 28px;
+        }
+    
+        .executed-content {
+            width: 230px;
+            height: 350px;
+        }
+    
+        .execution-image {
+            width: 230px;
+            height: 175px;
+            border-radius: 10px;
+        }
+    
+        .execution-name {
+            width: 220px;
+            height: 30px;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    
+        .execution-name p {
+            font-size: 14px;
+        }
+    
+        .execution-location {
+            width: 250px;
+            margin-top: 10px;
+        }
+    
+        .execution-details p {
+            font-size: 11.5px;
+            line-height: 15.8px;
+        }
+    
+        .execution-details ul li {
+            font-size: 11.5px;
+            line-height: 15.8px;
+        }
+    
+}
+
+
+/* MOBILE-PHONE VIEW */
+@media (max-width: 720px) {
+    #main-container-4 {
+        width: 400px;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .executed-intro {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .executed-intro p {
+        font-size: 18.8px;
+        line-height: 16px;
+    }
+
+    .executed-content {
+        width: 130px;
+        height: 350px;
+        margin-right: 0;
+    }
+
+    .execution-image {
+        width: 120px;
+        height: 105px;
+        border-radius: 5px;
+    }
+
+    .execution-name {
+        width: 120px;
+        height: 15px;
+        border-radius: 5px;
+    }
+
+    .execution-name p {
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    .execution-location {
+        width: 130px;
+        margin-top: 10px;
+    }
+
+    .execution-location p {
+        font-size: 9px;
+    }
+
+    .execution-details p {
+        font-size: 8.5px;
+        line-height: 12.8px;
+    }
+
+    .execution-details ul li {
+        font-size: 8.5px;
+        line-height: 12.8px;
+        margin-left: -27px;
+    }
+
+}
