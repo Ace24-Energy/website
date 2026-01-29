@@ -27,7 +27,18 @@
 
 .sub-container-4 {
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.sub-container-4::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    display: flex;
+    gap: 15px;
+    animation: spin 45s infinite linear;
 }
 
 .executed-content {
@@ -105,6 +116,10 @@
     margin-top: 0;
 }
 
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
 
 /* TABLET VIEW */
 @media (max-width: 1040px) {

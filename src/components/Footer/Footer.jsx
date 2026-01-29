@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import {Logo} from "../../assets/";
+import {Logo2} from "../../assets/";
 
 
 const Footer = () => {
@@ -8,19 +8,19 @@ const Footer = () => {
     <footer>
       <div className="wrapper" id="footer-container">
         <div className="footer-logo">
-          <img src={Logo} alt="Brand-Logo" />
+          <img src={Logo2} alt="Brand-Logo" />
         </div>
         <div className="footer-text">
           <ul>
             <li><p>Pages</p></li>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Testimonials</a></li>
+            <li><a href="#main-container-1">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
           </ul>
           <ul>
             <li><p>Admin</p></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#target-contact">Support</a></li>
+            <li><a href="#target-contact">Contact Us</a></li>
           </ul>
           <ul>
             <li><p>Social</p></li>
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>This website is designed by Precise code © 2026 || egboprecizze@gmail.com +234 906 595 8172</p>
+        <p>© 2026 ACE24 Energy Limited. All rights reserved</p>
       </div>
     </footer>
   )

@@ -11,7 +11,7 @@ const Solutions = () => {
         <div className="solutions-content">
           <img src={Leaf} alt="Leaf-icon" />
           <p className="solutions-content-title">
-            Solar & Clean <br /> Energy Systems
+            Solar & Clean Energy Systems
           </p>
           <ul>
             <li>Residential and commercial solar solutions</li>
@@ -22,24 +22,24 @@ const Solutions = () => {
         <div className="solutions-content">
           <img src={Leaf} alt="Leaf-icon" />
           <p className="solutions-content-title">
-            Inverters & Batteries
+            Smart Energy Management
           </p>
           <ul>
-            <li>All notable inverter brands and capacities</li>
-            <li>Lithium, lead-acid, and other battery options</li>
-            <li>Suitable for homes and businesses</li>
-            <li>Average warranty: 5 years</li>
+            <li>Intelligent monitoring and control systems</li>
+            <li>Optimized power usage and load balancing</li>
+            <li>Real-time energy performance insights</li>
+            <li>Improved efficiency and reduced energy costs</li>
           </ul>
         </div>
         <div className="solutions-content">
           <img src={Leaf} alt="Leaf-icon" />
           <p className="solutions-content-title">
-            Installation & Maintenance
+            Recycling 
           </p>
           <ul>
-            <li>Professional installation</li>
-            <li>Ongoing maintenance contracts</li>
-            <li>Direct service delivery and partner-supported installations</li>
+            <li>Safe recycling of used batteries and components </li>
+            <li>Environmentally responsible disposal processes</li>
+            <li>Supports for sustainable energy practices</li>
           </ul>
         </div>
         <div className="solutions-content">
@@ -51,6 +51,55 @@ const Solutions = () => {
             <li>Flexible payment plans for solar systems</li>
             <li>Financing for CNG conversion</li>
             <li>EV vehicle acquisition support</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="sub-container-3">
+        <div className="solutions-content">
+          <img src={Leaf} alt="Leaf-icon" />
+          <p className="solutions-content-title">
+            Energy Token Vending
+          </p>
+          <ul>
+            <li>Prepaid energy token sales and management</li>
+            <li>Secure and reliable vending system</li>
+            <li>Instant token generation and delivery</li>
+            <li>Support for residential and commercial users</li>
+          </ul>
+        </div>
+        <div className="solutions-content">
+          <img src={Leaf} alt="Leaf-icon" />
+          <p className="solutions-content-title">
+            Consultancy
+          </p>
+          <ul>
+            <li>Expert energy planning and advisory services</li>
+            <li>Feasibility studies and system assessments</li>
+            <li>Cost optimization and efficiency recommendations</li>
+          </ul>
+        </div>
+        <div className="solutions-content">
+          <img src={Leaf} alt="Leaf-icon" />
+          <p className="solutions-content-title">
+            Swap/Upgrade
+          </p>
+          <ul>
+            <li>System upgrades to modern energy solutions</li>
+            <li>Battery and inverter replacement services</li>
+            <li>Performance improvement and capacity expansion</li>
+          </ul>
+        </div>
+        <div className="solutions-content">
+          <img src={Leaf} alt="Leaf-icon" />
+          <p className="solutions-content-title">
+            ACE24 Mobile App
+          </p>
+          <ul>
+            <li>Easy access to energy products and services</li>
+            <li>Manage installations, payments, and support</li>
+            <li>Connect with verified partners and engineers</li>
+            <li>Centralized platform for energy management</li>
           </ul>
         </div>
       </div>

@@ -60,6 +60,10 @@ footer {
     font-size: 14px;
 }
 
+.footer-text ul li a:hover {
+    color: #ffffff90;
+}
+
 .copyright {
     position: absolute;
     display: flex;

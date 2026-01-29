@@ -27,9 +27,13 @@ import Linkedin from "./linkedin.png";
 import Whatsapp from "./whatsapp.png";
 import Menu from "./menu-bar.png";
 import Close from "./close-bar.png";
-
+import Overlay1 from "./Overlay.png";
+import Overlay2 from "./Overlay2.png";
+import Overlay3 from "./Overlay3.png";
+import Logo2 from "./logo-footer.png";
+import Cancel from "./cross.png";
 
 
 export { Logo, Container, Googleplay, Arrow, AboutUs1Image, Statistics1, Statistics2, Statistics3, Statistics4, Statistics5, Leaf,
          ExecutedImage1, ExecutedImage2, ExecutedImage3, Location, Verify, Arrowleft, Arrowright, Avatar, Plus, Call, Email, Instagram,
-         Facebook, Twitter, Linkedin, Whatsapp, Menu, Close };
+         Facebook, Twitter, Linkedin, Whatsapp, Menu, Close, Overlay1, Overlay2, Overlay3, Logo2, Cancel };

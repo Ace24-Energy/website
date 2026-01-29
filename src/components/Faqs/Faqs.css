@@ -41,9 +41,30 @@
     justify-content: space-between;
 }
 
+.answers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    display: none;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.display {
+    display: flex;
+    opacity: 1;
+}
+
 .questions p {
     font-size: 18px;
     color: var(--black-text-color);
+    width: 500px;
+}
+
+.answers p {
+    font-size: 18px;
+    color: var(--brand-primary-color);
     width: 500px;
 }
 
