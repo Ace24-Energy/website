@@ -1,5 +1,4 @@
 header {
-    /* min-height: 100vh; */
     background: url("../../assets/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,6 +58,10 @@ header .brand-image-1 {
     z-index: 300;
 }
 
+header .brand-image-1-2 {
+    display: none;
+}
+
 header .sub-intro-text {
     font-size: 18px;
     color: var(--black-text-color);
@@ -85,6 +88,7 @@ header .app-buttons .google-play-button {
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 header .app-buttons .google-play-button:hover {
@@ -121,6 +125,7 @@ header .app-buttons .whatsapp-button {
     border: none;
     border-radius: 30px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 header .app-buttons .whatsapp-button:hover {
@@ -131,32 +136,15 @@ header .app-buttons .whatsapp-button:hover {
 
 /* TABLET VERSION */
 @media (max-width: 1040px) {
-    header {
-        width: 100%;
-        height: 600px;
+header {
+        margin-top: 0;
+        max-width: 100%;
+        height: 700px;
     }
 
-    header .intro-text {
-        font-size: 30px;
-        line-height: 30px;
-        max-width: 430px;
-    }
-
-    header .brand-image-1 {
-        height: 280px;
-        width: 280px;
-        margin-right: 0;
-    }
-
-    header .sub-wrapper {
-        max-width: 600px;
-        height: 270px;
-    }
-
-    header .sub-intro-text {
-        font-size: 17px;
-        width: 450px;
-        height: 96px;
+    header .wrapper {
+        position: relative;
+        padding-top: 40px;
     }
 
     header .cta {
@@ -167,40 +155,92 @@ header .app-buttons .whatsapp-button:hover {
         max-width: 800px;
     }
 
+    header .sub-wrapper {
+        width: max-content;
+        height: 270px;
+        margin-right: 0;
+        margin-right: 15px;
+    }
+
+    header .intro-text {
+        color: var(--black-text-color);
+        letter-spacing: -1px;
+        font-size: 35.7px;
+        line-height: 45px;
+        line-break: none;
+    }
+
+    header .intro-text p {
+        display: inline;
+    }
+
+    header .brand-image-1 {
+        height: 380px;
+        width: 350px;
+        z-index: 300;
+    }
+
+    header .brand-image-1-2 {
+        display: none;
+    }
+
+    header .sub-intro-text {
+        font-size: 18px;
+        color: var(--black-text-color);
+        line-height: 24px;
+        width: 529px;
+        height: 96px;
+    }
+
     header .app-buttons {
-        max-width: 220px;
+        display: flex;
+        margin-top: 60px;
+        max-width: 305px;
+        justify-content: space-between;
     }
 
     header .app-buttons .google-play-button {
-        height: 28px;
-        width: 102px;
-        border-radius: 15px;
+        height: 38px;
+        width: 140px;
+    }
+
+    header .app-buttons .google-play-button:hover {
+        transform: scale(1.1);
     }
 
     header .app-buttons .google-play-button img {
-        height: 13px;
-        width: 13px;
-        margin-left: 3px;
-        margin-right: 5px;
+        height: 19px;
+        width: 19px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+
+    header .app-buttons .google-play-button .button-text {
+        justify-items: start;
+        margin-top: 4px;
     }
 
     header .app-buttons .google-play-button .button-text .first-text {
-        font-size: 9px;
+        font-size: 8px;
+        margin-bottom: 0px;
     }
 
     header .app-buttons .google-play-button .button-text .second-text {
-        font-size: 8px;
-        margin-bottom: 13px;
+        font-size: 14px;
+        margin-top: 0px;
     }
 
     header .app-buttons .whatsapp-button {
-        height: 28px;
-        width: 102px;
-        border-radius: 15px;
+        height: 38px;
+        width: 140px;
     }
 
-    header .app-buttons .whatsapp-button p{
-        font-size: 9px;
+    header .app-buttons .whatsapp-button p {
+        font-size: 10px;
+    }
+
+    header .app-buttons .whatsapp-button:hover {
+        transform: scale(1.1);
     }
 }
 
@@ -209,40 +249,72 @@ header .app-buttons .whatsapp-button:hover {
 /* MOBILE-PHONE VIEW */
 @media (max-width: 720px) {
     header {
-        height: 450px;
-        max-width: 100vw;
+        height: 660px;
+        max-width: 100%;
     }
 
-    header .intro-text {
-        font-size: 25px;
-        max-width: 350px;
+    header .wrapper {
+        padding-top: 0;
     }
 
     header .brand-image-1 {
-        display: none;
+        width: 345px;
+        height: 265px;
+        align-self: center;
+        margin-bottom: 7px;
+    }
+
+    header .brand-image-1-2 {
+        width: 345px;
+        height: 100px;
+        display: flex;
+        margin-top: 550px;
+        justify-self: center;
+        border-radius: 14px;
+    }
+
+    header .intro-text {
+        font-size: 17px;
+        max-width: 290px;
+        font-weight: 600;
+        text-align: center;
+        line-height: 25px;
+        letter-spacing: 0.1px;
+        margin-bottom: 0;
     }
 
     header .sub-wrapper {
-        max-width: 400px;
-        height: 270px;
+        width: 100%;
+        height: 200px;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        justify-content: space-between;
+        align-items: center;
     }
 
     header .sub-intro-text {
-        font-size: 13px;
-        width: 300px;
-        height: 96px;
-        line-height: 20px;
+        font-size: 9px;
+        height: 46px;
+        max-width: 345px;
+        line-height: 12px;
+        text-align: center;
+        margin-top: 0;
     }
 
     header .cta {
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-top: 40px;
-        max-width: 400px;
-        padding-left: 30px;
+        max-width: 100%;
+        align-items: center;
+        justify-self: center;
     }
 
     header .app-buttons {
-        max-width: 200px;
+        width: 300px;
+        margin-top: 15px;
+        justify-content: space-around;
     }
 
     header .app-buttons .google-play-button {
@@ -250,7 +322,7 @@ header .app-buttons .whatsapp-button:hover {
     }
 
     header .app-buttons .google-play-button .button-text .first-text {
-        font-size: 8px;
+        font-size: 7px;
     }
 
     header .app-buttons .google-play-button .button-text .second-text {

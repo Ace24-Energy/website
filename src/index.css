@@ -19,6 +19,7 @@ html {
 body {
   margin: 0;
   font-family: lato;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -33,13 +34,14 @@ a {
 /* TABLET VERSION */
 @media (max-width: 1040px) {
   .wrapper {
-    max-width: 800px;
+    max-width: 900px;
   }
 }
 
-/* TABLET VERSION */
+/* MOBILE VERSION */
 @media (max-width: 720px) {
   .wrapper {
-    max-width: 400px;
+    max-width: 100%;
   }
 }
+

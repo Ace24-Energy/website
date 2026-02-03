@@ -32,8 +32,25 @@ import Overlay2 from "./Overlay2.png";
 import Overlay3 from "./Overlay3.png";
 import Logo2 from "./logo-footer.png";
 import Cancel from "./cross.png";
+import Worksite from "./panel-installation.png";
+import Container2 from "./mobile-brand-img.png";
+import MobileStat1 from "./mobile-stat-1.png";
+import MobileStat2 from "./mobile-stat-2.png";
+import MobileStat3 from "./mobile-stat-3.png";
+import MobileStat4 from "./mobile-stat-4.png";
+import MobileStat5 from "./mobile-stat-5.png";
+import MobileSol1 from "./mobile-sol-1.png";
+import MobileSol2 from "./mobile-sol-2.png";
+import MobileSol3 from "./mobile-sol-3.png";
+import MobileSol4 from "./mobile-sol-4.png";
+import Star from "./star.png";
+import Avatar2 from "./avatar2.png";
+import Arrowdown from "./arrowdown.png";
+import Arrowup from "./arrowup.png";
+
 
 
 export { Logo, Container, Googleplay, Arrow, AboutUs1Image, Statistics1, Statistics2, Statistics3, Statistics4, Statistics5, Leaf,
          ExecutedImage1, ExecutedImage2, ExecutedImage3, Location, Verify, Arrowleft, Arrowright, Avatar, Plus, Call, Email, Instagram,
-         Facebook, Twitter, Linkedin, Whatsapp, Menu, Close, Overlay1, Overlay2, Overlay3, Logo2, Cancel };
+         Facebook, Twitter, Linkedin, Whatsapp, Menu, Close, Overlay1, Overlay2, Overlay3, Logo2, Cancel, Worksite, Container2, MobileStat1,
+        MobileStat2, MobileStat3, MobileStat4, MobileStat5, MobileSol1, MobileSol2, MobileSol3, MobileSol4, Star, Avatar2, Arrowdown, Arrowup };

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
-import {Container, Googleplay} from "../../assets/";
+import {Container, Googleplay, Worksite} from "../../assets/";
 const Header = () => {
   return (
     <header>
@@ -28,6 +28,7 @@ const Header = () => {
           </div>
           <img className= "brand-image-1" src={Container} alt="Brand-image-1" />
         </div>
+        <img className= "brand-image-1-2" src={Worksite} alt="Worksite-image" />
       </div>
     </header>
   )

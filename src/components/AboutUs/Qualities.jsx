@@ -15,7 +15,7 @@ const Qualities = () => {
           <div className="quality-content-box">
             <img src={Overlay1} alt="Quality-icon" />
             <p className="quality-amount">₦100m</p>
-            <p className="quality-text-1" id='ajust-quality-text'>Revenue <br /> Generated</p>
+            <p className="quality-text-1" id='ajust-quality-text'>Revenue Generated</p>
             <p className="quality-text-2">Since inception</p>
           </div>
           <div className="quality-content-box">
@@ -27,7 +27,7 @@ const Qualities = () => {
           <div className="quality-content-box">
             <img src={Overlay1} alt="Quality-icon" />
             <p className="quality-amount">₦36m</p>
-            <p className="quality-text-1" id='ajust-quality-text'>Preojected <br /> Revenue</p>
+            <p className="quality-text-1" id='ajust-quality-text'>Projected Revenue</p>
             <p className="quality-text-2">In 3 years</p>
           </div>
         </div>

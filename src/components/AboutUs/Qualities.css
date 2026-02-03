@@ -49,6 +49,11 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.quality-content-box:hover {
+    transform: translateY(-10px);
 }
 
 .quality-content-box img {
@@ -69,6 +74,7 @@
     line-height: 28px;
     color: var(--white-text-color);
     text-align: center;
+    max-width: 100px;
 }
 
 .quality-text-2 {
@@ -80,5 +86,192 @@
 #ajust-quality-text {
     margin-bottom: 4px;
     margin-top: 0;
+}
+
+/* TABLET VIEW */
+@media (max-width: 1040px) {
+#main-container-5 {
+        max-width: 900px;
+        height: 365px;
+        background-color: var(--brand-primary-color);
+        padding-top: 15px;
+        border-radius: 32px;
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    .quality-intro {
+        justify-items: center;
+    }
+
+    .quality-intro-text-1 {
+        font-size: 27px;
+        line-height: 40px;
+        letter-spacing: 0.98px;
+        color: var(--white-text-color);
+        margin-bottom: 10px;
+    }
+
+    .quality-intro-text-2 {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        color: #ffffffaf;
+        margin-top: 0;
+    }
+
+    .quality-contents {
+        max-width: 900px;
+        height: 233px;
+        justify-self: center;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .quality-content-box {
+        width: 270px;
+        height: 133px;
+        border-radius: 16px;
+        border: #ffffff58;
+        background-color: #ffffff1c;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    .quality-content-box:hover {
+        transform: translateY(-10px);
+    }
+
+    .quality-content-box img {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 0;
+    }
+
+    .quality-amount {
+        font-size: 22px;
+        color: var(--white-text-color);
+        margin-top: 3px;
+        margin-bottom: 0;
+        font-family: Arial;
+    }
+
+    .quality-text-1 {
+        font-size: 10px;
+        line-height: 28px;
+        color: var(--white-text-color);
+        text-align: center;
+        max-width: 100px;
+        margin-bottom: -10px;
+    }
+
+    .quality-text-2 {
+        font-size: 9px;
+        list-style: 20px;
+        color: #ffffffa8;
+    }
+
+    #ajust-quality-text {
+        margin-bottom: 4px;
+        margin-top: 0;
+    }
+}
+
+/* MOBILE VIEW */
+@media (max-width: 720px) {
+    #main-container-5 {
+            max-width: 100%;
+            height: 170px;
+            background-color: var(--brand-primary-color);
+            padding-top: 10px;
+            border-radius: 0;
+            margin-top: 30px;
+            margin-bottom: 0;
+        }
+
+        .quality-intro {
+            justify-items: center;
+        }
+
+        .quality-intro-text-1 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 0;
+            letter-spacing: 0;
+            color: var(--white-text-color);
+            margin-bottom: 6px;
+        }
+
+        .quality-intro-text-2 {
+            font-size: 8px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            color: #ffffffb0;
+            margin-top: 0;
+        }
+
+        .quality-contents {
+            width: 345px;
+            height: 85px;
+            justify-self: center;
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .quality-content-box {
+            width: 105px;
+            height: 80px;
+            border-radius: 9px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .quality-content-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .quality-content-box img {
+            width: 25px;
+            height: 25px;
+            margin-top: 5px;
+        }
+
+        .quality-amount {
+            font-size: 11px;
+            color: var(--white-text-color);
+            margin-top: 3px;
+            margin-bottom: 3px;
+            font-family: Arial;
+        }
+
+        .quality-text-1 {
+            font-size: 8px;
+            line-height: 10px;
+            color: var(--white-text-color);
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
+
+        }
+
+        .quality-text-2 {
+            font-size: 7px;
+            list-style: 20px;
+            color: #ffffffa8;
+            margin-top: 0;
+        }
+
+        #ajust-quality-text {
+            margin-bottom: 4px;
+            margin-top: 0;
+        }
 }
 
