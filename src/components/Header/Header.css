@@ -349,6 +349,7 @@ header {
     }
 
     header .app-buttons .whatsapp-button p {
-        font-size: 8px;
+        font-size: 7px;
+        max-width: 100%;
     }
 }
