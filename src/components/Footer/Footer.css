@@ -176,8 +176,8 @@ footer {
     }
 
     .copyright-box {
-        max-width: max-content;
-        justify-self: center;
+        max-width: 100%;
+        text-align: center;
     }
 
     .copyright-box p {

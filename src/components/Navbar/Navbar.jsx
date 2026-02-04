@@ -12,6 +12,7 @@ const Navbar = () => {
       <a href="#"><img src={Logo} alt="Brand-Logo" className='brand-logo'/></a>
       <ul className='nav-list'>
         <li><a href="#main-container-1"> About Us </a></li>
+        <li><a href="#"> Our Team </a></li>
         <li><a href="#main-container-3"> Solutions </a></li>
         <li><a href="#testimonials"> Testimonials </a></li>
         <li><a href="#Faq-section"> FAQ </a></li>
@@ -26,6 +27,7 @@ const Navbar = () => {
       </div>
        <ul className='menu-items'>
         <li><a href="#target-mobile-about-us" onClick={() => setIsActive(false)}> About Us </a></li>
+        <li><a href="#" onClick={() => setIsActive(false)}>  Our Team </a></li>
         <li><a href="#target-mobile-solutions" onClick={() => setIsActive(false)}> Solutions </a></li>
         <li><a href="#target-mobile-reviews" onClick={() => setIsActive(false)}> Testimonials </a></li>
         <li><a href="#target-mobile-faqs" onClick={() => setIsActive(false)}> FAQ </a></li>

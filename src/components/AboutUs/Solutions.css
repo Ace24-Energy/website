@@ -132,6 +132,7 @@
 
     .mobile-main-container-3 {
         display: block;
+        justify-items: center;
         max-width: 100%;
         height: 300px;
         padding-top: 15px;
@@ -141,8 +142,7 @@
 
     .mobile-solution-intro {
         width: 200px;
-        justify-items: center;
-        justify-self: center;
+        text-align: center;
     }
 
     .mobile-solution-intro p {
@@ -155,7 +155,6 @@
     .mobile-sub-container-3 {
         width: 345px;
         height: 180px;
-        justify-self: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 5px;
@@ -165,12 +164,12 @@
 
     .mobile-solutions-content {
         background-color: #ffffff;
+        display: block;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.08);
         height: 85px;
         width: 170px;
         border-radius: 8px;
         justify-items: center;
-        align-items: center;
     }
 
     .mobile-solutions-content img {

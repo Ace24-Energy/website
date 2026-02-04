@@ -253,6 +253,10 @@ header {
         max-width: 100%;
     }
 
+    #header-align {
+        justify-items: center;
+    }
+
     header .wrapper {
         padding-top: 0;
     }
@@ -269,7 +273,6 @@ header {
         height: 100px;
         display: flex;
         margin-top: 550px;
-        justify-self: center;
         border-radius: 14px;
     }
 
@@ -305,20 +308,28 @@ header {
 
     header .cta {
         flex-direction: column-reverse;
-        margin-top: 40px;
         max-width: 100%;
         align-items: center;
-        justify-self: center;
+        margin: auto;
+        /* justify-self: center; */
     }
 
     header .app-buttons {
-        width: 300px;
+        width: 180px;
         margin-top: 15px;
         justify-content: space-around;
     }
 
     header .app-buttons .google-play-button {
-        width: 95px;
+        width: 85px;
+        height: 25px;
+    }
+
+    header .app-buttons .google-play-button img {
+        height: 14px;
+        width: 14px;
+        margin-left: 2px;
+        margin-right: 5px;
     }
 
     header .app-buttons .google-play-button .button-text .first-text {
@@ -326,11 +337,12 @@ header {
     }
 
     header .app-buttons .google-play-button .button-text .second-text {
-        font-size: 8px;
+        font-size: 7px;
     }
 
     header .app-buttons .whatsapp-button {
-        width: 95px;
+        width: 85px;
+        height: 25px;
     }
 
     header .app-buttons .whatsapp-button p {

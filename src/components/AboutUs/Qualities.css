@@ -2,10 +2,14 @@
     width: 1328px;
     height: 515px;
     background-color: var(--brand-primary-color);
-    padding-top: 30px;
+    padding-top: 0;
     border-radius: 32px;
     margin-top: 120px;
     margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quality-intro {
@@ -31,8 +35,8 @@
 .quality-contents {
     width: 1264px;
     height: 233px;
-    justify-self: center;
     margin-top: 40px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -196,7 +200,9 @@
         }
 
         .quality-intro {
-            justify-items: center;
+            justify-items: normal;
+            text-align: center;
+            width: 300px;
         }
 
         .quality-intro-text-1 {
@@ -219,9 +225,10 @@
         .quality-contents {
             width: 345px;
             height: 85px;
-            justify-self: center;
-            margin-top: 15px;
+            margin-top: 4px;
+            margin-bottom: 3px;
             display: flex;
+            justify-self: normal;
             justify-content: space-around;
         }
 

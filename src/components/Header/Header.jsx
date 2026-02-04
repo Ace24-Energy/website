@@ -5,7 +5,7 @@ import {Container, Googleplay, Worksite} from "../../assets/";
 const Header = () => {
   return (
     <header>
-      <div className='wrapper'>
+      <div className='wrapper' id='header-align'>
         <Navbar />
         <div className="cta">
           <div className="sub-wrapper"> 

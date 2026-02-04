@@ -241,6 +241,7 @@
 
     .mobile-main-container-2 {
         display: block;
+        justify-items: center;
         max-width: 100%;
         height: 360px;
         margin-top: 40px;
@@ -250,8 +251,7 @@
 
     .mobile-intro-2 {
         width: 300px;
-        justify-items: center;
-        justify-self: center;
+        text-align: center;
     }
 
     .mobile-intro-title-2 {
@@ -269,7 +269,6 @@
 
     .mobile-main-sub-container-2 {
         width: 345px;
-        justify-self: center;
         margin-top: 20px;
     }
 
