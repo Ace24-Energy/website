@@ -111,26 +111,28 @@ const Solutions = () => {
       {/* MOBILE VIEW */}
       <section className="mobile-main-container-3" id='target-mobile-solutions'>
         <div className="mobile-solution-intro"><p>Our Solutions</p></div>
-        <div className="mobile-sub-container-3">
-          <div className="mobile-solutions-content">
-            <img src={MobileSol1} alt="solution-icon" />
-            <p className='mobile-solution-title'>Solar & Clean Energy System</p>
-            <p className="mobile-solution-text">Complete solar installations for residential and commercial properties</p>
-          </div>
-          <div className="mobile-solutions-content">
-            <img src={MobileSol2} alt="solution-icon" />
-            <p className='mobile-solution-title'>Inverters & Batteries</p>
-            <p className="mobile-solution-text">High-quality power storage and backup solutions</p>
-          </div>
-          <div className="mobile-solutions-content">
-            <img src={MobileSol3} alt="solution-icon" />
-            <p className='mobile-solution-title'>Installation & Maintenance</p>
-            <p className="mobile-solution-text">Expert installation with ongoing maintenance support</p>
-          </div>
-          <div className="mobile-solutions-content">
-            <img src={MobileSol4} alt="solution-icon" />
-            <p className='mobile-solution-title'>Energy Financing</p>
-            <p className="mobile-solution-text">Flexible payment plans to make clean energy accessible</p>
+        <div className="mobile-wrapper-3">
+          <div className="mobile-sub-container-3">
+            <div className="mobile-solutions-content">
+              <img src={MobileSol1} alt="solution-icon" />
+              <p className='mobile-solution-title'>Solar & Clean Energy System</p>
+              <p className="mobile-solution-text">Complete solar installations for residential and commercial properties</p>
+            </div>
+            <div className="mobile-solutions-content">
+              <img src={MobileSol2} alt="solution-icon" />
+              <p className='mobile-solution-title'>Inverters & Batteries</p>
+              <p className="mobile-solution-text">High-quality power storage and backup solutions</p>
+            </div>
+            <div className="mobile-solutions-content">
+              <img src={MobileSol3} alt="solution-icon" />
+              <p className='mobile-solution-title'>Installation & Maintenance</p>
+              <p className="mobile-solution-text">Expert installation with ongoing maintenance support</p>
+            </div>
+            <div className="mobile-solutions-content">
+              <img src={MobileSol4} alt="solution-icon" />
+              <p className='mobile-solution-title'>Energy Financing</p>
+              <p className="mobile-solution-text">Flexible payment plans to make clean energy accessible</p>
+            </div>
           </div>
         </div>
       </section>

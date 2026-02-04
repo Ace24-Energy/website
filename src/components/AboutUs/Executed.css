@@ -194,16 +194,14 @@
 
     .mobile-main-container-4 {
         display: block;
-        justify-items: center;
         background-color: #FAFBEE;
         max-width: 100%;
         height: 400px;
-        margin-top: 30px;
-        padding: 15px;
+        padding-top: 25px;
     }
 
     .mobile-executed-intro {
-        width: 200px;
+        max-width: 100%;
         text-align: center;
     }
 
@@ -212,6 +210,13 @@
         font-weight: 600;
         color: var(--brand-primary-dark);
         margin-bottom: 10px;
+    }
+
+    .mobile-wrapper-4 {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .mobile-sub-container-4 {

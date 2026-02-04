@@ -241,16 +241,13 @@
 
     .mobile-main-container-2 {
         display: block;
-        justify-items: center;
         max-width: 100%;
         height: 360px;
         margin-top: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     .mobile-intro-2 {
-        width: 300px;
+        max-width: 100%;
         text-align: center;
     }
 
@@ -267,9 +264,18 @@
         margin-top: 0;
     }
 
+    .mobile-wrapper-2 {
+        max-width: 100%;
+        max-height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
     .mobile-main-sub-container-2 {
         width: 345px;
-        margin-top: 20px;
     }
 
     .mobile-main-content-2 {

@@ -254,11 +254,14 @@ header {
     }
 
     #header-align {
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     header .wrapper {
         padding-top: 0;
+        max-width: 100%;
     }
 
     header .brand-image-1 {
@@ -272,7 +275,7 @@ header {
         width: 345px;
         height: 100px;
         display: flex;
-        margin-top: 550px;
+        margin-top: 500px;
         border-radius: 14px;
     }
 
@@ -309,9 +312,9 @@ header {
     header .cta {
         flex-direction: column-reverse;
         max-width: 100%;
-        align-items: center;
-        margin: auto;
-        /* justify-self: center; */
+        /* align-items: center; */
+        margin-bottom: 0;
+        margin-top: 25%;
     }
 
     header .app-buttons {

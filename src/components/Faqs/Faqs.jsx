@@ -78,107 +78,108 @@ const Faqs = () => {
           <p className="mobile-faq-intro-1">Have questions?</p>
           <p className="mobile-faq-intro-2">We've got answers</p>
         </div>
+        <div className="mobile-wrapper-6">
+          <div className="mobile-faq-questions-box">
+            
+            {/* QUESTION 1 */}
+            <div className="faq-item">
+              <div
+                className="mobile-faq-questions"
+                onClick={() => toggleMobileFaq(0)}
+              >
+                <p>Do you provide clean energy systems for both homes and businesses?</p>
 
-        <div className="mobile-faq-questions-box">
-          
-          {/* QUESTION 1 */}
-          <div className="faq-item">
-            <div
-              className="mobile-faq-questions"
-              onClick={() => toggleMobileFaq(0)}
-            >
-              <p>Do you provide clean energy systems for both homes and businesses?</p>
+                <img
+                  src={currentIndex === 0 ? Arrowup : Arrowdown}
+                  alt="toggle-icon"
+                />
+              </div>
 
-              <img
-                src={currentIndex === 0 ? Arrowup : Arrowdown}
-                alt="toggle-icon"
-              />
+              {/* ANSWER 1 */}
+              {currentIndex === 0 && (
+                <div className="mobile-faq-answers">
+                  <p>
+                    Yes, we offer customized solar and clean energy solutions for
+                    residential homes, offices, factories, and commercial properties.
+                  </p>
+                </div>
+              )}
             </div>
 
-            {/* ANSWER 1 */}
-            {currentIndex === 0 && (
-              <div className="mobile-faq-answers">
-                <p>
-                  Yes, we offer customized solar and clean energy solutions for
-                  residential homes, offices, factories, and commercial properties.
-                </p>
+            {/* QUESTION 2 */}
+            <div className="faq-item">
+              <div
+                className="mobile-faq-questions"
+                onClick={() => toggleMobileFaq(1)}
+              >
+                <p>Do you offer flexible payment plans or buy-now-pay-later options?</p>
+
+                <img
+                  src={currentIndex === 1 ? Arrowup : Arrowdown}
+                  alt="toggle-icon"
+                />
               </div>
-            )}
-          </div>
 
-          {/* QUESTION 2 */}
-          <div className="faq-item">
-            <div
-              className="mobile-faq-questions"
-              onClick={() => toggleMobileFaq(1)}
-            >
-              <p>Do you offer flexible payment plans or buy-now-pay-later options?</p>
-
-              <img
-                src={currentIndex === 1 ? Arrowup : Arrowdown}
-                alt="toggle-icon"
-              />
+              {/* ANSWER 2 */}
+              {currentIndex === 1 && (
+                <div className="mobile-faq-answers">
+                  <p>
+                    Yes, we provide flexible payment plans depending on your project
+                    size and budget.
+                  </p>
+                </div>
+              )}
             </div>
 
-            {/* ANSWER 2 */}
-            {currentIndex === 1 && (
-              <div className="mobile-faq-answers">
-                <p>
-                  Yes, we provide flexible payment plans depending on your project
-                  size and budget.
-                </p>
+            {/* QUESTION 3 */}
+            <div className="faq-item">
+              <div
+                className="mobile-faq-questions"
+                onClick={() => toggleMobileFaq(2)}
+              >
+                <p>How long can a solar battery typically last?</p>
+
+                <img
+                  src={currentIndex === 2 ? Arrowup : Arrowdown}
+                  alt="toggle-icon"
+                />
               </div>
-            )}
-          </div>
 
-          {/* QUESTION 3 */}
-          <div className="faq-item">
-            <div
-              className="mobile-faq-questions"
-              onClick={() => toggleMobileFaq(2)}
-            >
-              <p>How long can a solar battery typically last?</p>
-
-              <img
-                src={currentIndex === 2 ? Arrowup : Arrowdown}
-                alt="toggle-icon"
-              />
+              {/* ANSWER 3 */}
+              {currentIndex === 2 && (
+                <div className="mobile-faq-answers">
+                  <p>
+                    Battery backup time depends on usage, but most systems last
+                    between 6–12 hours on average.
+                  </p>
+                </div>
+              )}
             </div>
 
-            {/* ANSWER 3 */}
-            {currentIndex === 2 && (
-              <div className="mobile-faq-answers">
-                <p>
-                  Battery backup time depends on usage, but most systems last
-                  between 6–12 hours on average.
-                </p>
+            {/* QUESTION 4 */}
+            <div className="faq-item">
+              <div
+                className="mobile-faq-questions"
+                onClick={() => toggleMobileFaq(3)}
+              >
+                <p>What types of inverters and batteries do you supply?</p>
+
+                <img
+                  src={currentIndex === 3 ? Arrowup : Arrowdown}
+                  alt="toggle-icon"
+                />
               </div>
-            )}
-          </div>
 
-          {/* QUESTION 4 */}
-          <div className="faq-item">
-            <div
-              className="mobile-faq-questions"
-              onClick={() => toggleMobileFaq(3)}
-            >
-              <p>What types of inverters and batteries do you supply?</p>
-
-              <img
-                src={currentIndex === 3 ? Arrowup : Arrowdown}
-                alt="toggle-icon"
-              />
+              {/* ANSWER 4 */}
+              {currentIndex === 3 && (
+                <div className="mobile-faq-answers">
+                  <p>
+                    We supply top inverter and battery brands including Victron,
+                    SMA, Tesla, and others.
+                  </p>
+                </div>
+              )}
             </div>
-
-            {/* ANSWER 4 */}
-            {currentIndex === 3 && (
-              <div className="mobile-faq-answers">
-                <p>
-                  We supply top inverter and battery brands including Victron,
-                  SMA, Tesla, and others.
-                </p>
-              </div>
-            )}
           </div>
         </div>
     </section>

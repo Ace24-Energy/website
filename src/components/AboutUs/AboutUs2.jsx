@@ -53,44 +53,46 @@ const AboutUs2 = () => {
           <p className='mobile-intro-title-2'>What Makes Us Different</p>
           <p className='mobile-intro-text-2'>Discover why thousands trust us with their energy needs</p>
         </div>
-        <div className="mobile-main-sub-container-2">
-          <div className="mobile-main-content-2">
-            <img src={MobileStat1} alt="Mobile-stat-icon" />
-            <div className="mobile-main-content-text">
-              <p className='mobile-main-content-text-1'>All-In-One Energy Platform</p>
-              <p className='mobile-main-content-text-2'>Discover, finance, manage, and maintain energy solutions</p>
+        <div className="mobile-wrapper-2">
+          <div className="mobile-main-sub-container-2">
+            <div className="mobile-main-content-2">
+              <img src={MobileStat1} alt="Mobile-stat-icon" />
+              <div className="mobile-main-content-text">
+                <p className='mobile-main-content-text-1'>All-In-One Energy Platform</p>
+                <p className='mobile-main-content-text-2'>Discover, finance, manage, and maintain energy solutions</p>
+              </div>
             </div>
-          </div>
 
-          <div className="mobile-main-content-2">
-            <img src={MobileStat2} alt="Mobile-stat-icon" />
-            <div className="mobile-main-content-text">
-              <p className='mobile-main-content-text-1'>Flexible Payment Option</p>
-              <p className='mobile-main-content-text-2'>Enery financing, leasing, and recycle-to-purchase programs</p>
+            <div className="mobile-main-content-2">
+              <img src={MobileStat2} alt="Mobile-stat-icon" />
+              <div className="mobile-main-content-text">
+                <p className='mobile-main-content-text-1'>Flexible Payment Option</p>
+                <p className='mobile-main-content-text-2'>Enery financing, leasing, and recycle-to-purchase programs</p>
+              </div>
             </div>
-          </div>
 
-          <div className="mobile-main-content-2">
-            <img src={MobileStat3} alt="Mobile-stat-icon" />
-            <div className="mobile-main-content-text">
-              <p className='mobile-main-content-text-1'>Quality-First Approach</p>
-              <p className='mobile-main-content-text-2'>Only verified, high-quality products deployed</p>
+            <div className="mobile-main-content-2">
+              <img src={MobileStat3} alt="Mobile-stat-icon" />
+              <div className="mobile-main-content-text">
+                <p className='mobile-main-content-text-1'>Quality-First Approach</p>
+                <p className='mobile-main-content-text-2'>Only verified, high-quality products deployed</p>
+              </div>
             </div>
-          </div>
 
-          <div className="mobile-main-content-2">
-            <img src={MobileStat4} alt="Mobile-stat-icon" />
-            <div className="mobile-main-content-text">
-              <p className='mobile-main-content-text-1'>Fast Response Time</p>
-              <p className='mobile-main-content-text-2'>Prompt support from inquiry to delivery</p>
+            <div className="mobile-main-content-2">
+              <img src={MobileStat4} alt="Mobile-stat-icon" />
+              <div className="mobile-main-content-text">
+                <p className='mobile-main-content-text-1'>Fast Response Time</p>
+                <p className='mobile-main-content-text-2'>Prompt support from inquiry to delivery</p>
+              </div>
             </div>
-          </div>
 
-          <div className="mobile-main-content-2">
-            <img src={MobileStat5} alt="Mobile-stat-icon" />
-            <div className="mobile-main-content-text">
-              <p className='mobile-main-content-text-1'>National Partner Network</p>
-              <p className='mobile-main-content-text-2'>Reliable service delivery across Nigeria</p>
+            <div className="mobile-main-content-2">
+              <img src={MobileStat5} alt="Mobile-stat-icon" />
+              <div className="mobile-main-content-text">
+                <p className='mobile-main-content-text-1'>National Partner Network</p>
+                <p className='mobile-main-content-text-2'>Reliable service delivery across Nigeria</p>
+              </div>
             </div>
           </div>
         </div>

@@ -98,107 +98,108 @@ const slideLeft = () => {
             <p className='mobile-review-intro-1'>What Our Clients Say</p>
             <p className='mobile-review-intro-2'>Real stories from real customers</p>
           </div>
-          <div className="mobile-review-content">
-            <div className="mobile-review-slider" ref={boxSlideRef}>
-              <div className="mobile-review-sub-content">
-                <div className="mobile-review">
-                  <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
-                    installation, everything was fast, professional, and transparent.
-                  </p>
+          <div className="mobile-wrapper-5">
+            <div className="mobile-review-content">
+              <div className="mobile-review-slider" ref={boxSlideRef}>
+                <div className="mobile-review-sub-content">
+                  <div className="mobile-review">
+                    <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
+                      installation, everything was fast, professional, and transparent.
+                    </p>
+                  </div>
+                  <div className="mobile-review-ratings">
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                  </div>
+                  <div className="mobile-review-profile">
+                    <img src={Avatar2} alt="Profile-icon" />
+                    <div className="mobile-review-names">
+                      <p className="mobile-review-name-1">Akin Moses</p>
+                      <p className="mobile-review-name-2">Business Owner, Lagos.</p>
+                    </div>
+                  </div>
                 </div>
-                <div className="mobile-review-ratings">
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
+
+                <div className="mobile-review-sub-content">
+                  <div className="mobile-review">
+                    <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
+                      installation, everything was fast, professional, and transparent.
+                    </p>
+                  </div>
+                  <div className="mobile-review-ratings">
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                  </div>
+                  <div className="mobile-review-profile">
+                    <img src={Avatar2} alt="Profile-icon" />
+                    <div className="mobile-review-names">
+                      <p className="mobile-review-name-1">Akin Moses</p>
+                      <p className="mobile-review-name-2">Business Owner, Lagos.</p>
+                    </div>
+                  </div>
                 </div>
-                <div className="mobile-review-profile">
-                  <img src={Avatar2} alt="Profile-icon" />
-                  <div className="mobile-review-names">
-                    <p className="mobile-review-name-1">Akin Moses</p>
-                    <p className="mobile-review-name-2">Business Owner, Lagos.</p>
+
+                <div className="mobile-review-sub-content">
+                  <div className="mobile-review">
+                    <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
+                      installation, everything was fast, professional, and transparent.
+                    </p>
+                  </div>
+                  <div className="mobile-review-ratings">
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                  </div>
+                  <div className="mobile-review-profile">
+                    <img src={Avatar2} alt="Profile-icon" />
+                    <div className="mobile-review-names">
+                      <p className="mobile-review-name-1">Akin Moses</p>
+                      <p className="mobile-review-name-2">Business Owner, Lagos.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mobile-review-sub-content">
+                  <div className="mobile-review">
+                    <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
+                      installation, everything was fast, professional, and transparent.
+                    </p>
+                  </div>
+                  <div className="mobile-review-ratings">
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                  </div>
+                  <div className="mobile-review-profile">
+                    <img src={Avatar2} alt="Profile-icon" />
+                    <div className="mobile-review-names">
+                      <p className="mobile-review-name-1">Akin Moses</p>
+                      <p className="mobile-review-name-2">Business Owner, Lagos.</p>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div className="mobile-review-sub-content">
-                <div className="mobile-review">
-                  <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
-                    installation, everything was fast, professional, and transparent.
-                  </p>
+              <div className="mobile-review-slide-icons">
+                <div className="mobile-review-icon" onClick={slideLeft}>
+                  <img src={Arrowleft} alt="left-arrow-icon" />
                 </div>
-                <div className="mobile-review-ratings">
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                </div>
-                <div className="mobile-review-profile">
-                  <img src={Avatar2} alt="Profile-icon" />
-                  <div className="mobile-review-names">
-                    <p className="mobile-review-name-1">Akin Moses</p>
-                    <p className="mobile-review-name-2">Business Owner, Lagos.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mobile-review-sub-content">
-                <div className="mobile-review">
-                  <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
-                    installation, everything was fast, professional, and transparent.
-                  </p>
-                </div>
-                <div className="mobile-review-ratings">
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                </div>
-                <div className="mobile-review-profile">
-                  <img src={Avatar2} alt="Profile-icon" />
-                  <div className="mobile-review-names">
-                    <p className="mobile-review-name-1">Akin Moses</p>
-                    <p className="mobile-review-name-2">Business Owner, Lagos.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mobile-review-sub-content">
-                <div className="mobile-review">
-                  <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
-                    installation, everything was fast, professional, and transparent.
-                  </p>
-                </div>
-                <div className="mobile-review-ratings">
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                  <img src={Star} alt="Rating-icon" />
-                </div>
-                <div className="mobile-review-profile">
-                  <img src={Avatar2} alt="Profile-icon" />
-                  <div className="mobile-review-names">
-                    <p className="mobile-review-name-1">Akin Moses</p>
-                    <p className="mobile-review-name-2">Business Owner, Lagos.</p>
-                  </div>
+                <div className="mobile-review-icon" onClick={slideRight}>
+                  <img src={Arrowright} alt="right-arrow-icon" />
                 </div>
               </div>
             </div>
-
-            <div className="mobile-review-slide-icons">
-              <div className="mobile-review-icon" onClick={slideLeft}>
-                <img src={Arrowleft} alt="left-arrow-icon" />
-              </div>
-              <div className="mobile-review-icon" onClick={slideRight}>
-                <img src={Arrowright} alt="right-arrow-icon" />
-              </div>
-            </div>
-          </div>
-        
+        </div>
       </section>
     </>
   )

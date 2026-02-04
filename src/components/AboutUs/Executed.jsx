@@ -218,78 +218,80 @@ const Executed = () => {
         {/* MOBILE VIEW */}
         <section className="mobile-main-container-4" id='target-mobile-executed'>
             <div className="mobile-executed-intro"><p>Our Executed Projects</p></div>
-            <div className="mobile-sub-container-4">
-                <div className="mobile-slider" ref={sliderRef}>
-                    <div className="mobile-executed-contents">
-                        <div className="mobile-executed-sub-content">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>20KW Solar Power System</p>
-                                <p className='mobile-exe-text-2'>Lagos, Nigeria</p>
-                            </div>                      
-                        </div>
+            <div className="mobile-wrapper-4">
+                <div className="mobile-sub-container-4">
+                    <div className="mobile-slider" ref={sliderRef}>
+                        <div className="mobile-executed-contents">
+                            <div className="mobile-executed-sub-content">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>20KW Solar Power System</p>
+                                    <p className='mobile-exe-text-2'>Lagos, Nigeria</p>
+                                </div>                      
+                            </div>
 
-                        <div className="mobile-executed-sub-content-2">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>Solar Powered Office</p>
-                                <p className='mobile-exe-text-2'>Abuja, Nigeria</p>
-                            </div>                      
-                        </div>
+                            <div className="mobile-executed-sub-content-2">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>Solar Powered Office</p>
+                                    <p className='mobile-exe-text-2'>Abuja, Nigeria</p>
+                                </div>                      
+                            </div>
 
-                        <div className="mobile-executed-sub-content-3">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>Solar Powered ICT Center</p>
-                                <p className='mobile-exe-text-2'>Ibadan, Nigeria</p>
-                            </div>                      
-                        </div>
-                    </div>
-                </div>
-
-                <div className="mobile-slider" ref={sliderRef2}>
-                    <div className="mobile-executed-contents" id='target-metrics'>
-                        <div className="mobile-executed-sub-content-2">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>Solar Powered Office</p>
-                                <p className='mobile-exe-text-2'>Abuja, Nigeria</p>
-                            </div>                      
-                        </div>
-
-                        <div className="mobile-executed-sub-content-3">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>Solar Powered ICT Center</p>
-                                <p className='mobile-exe-text-2'>Ibadan, Nigeria</p>
-                            </div>                      
-                        </div>
-
-                        <div className="mobile-executed-sub-content">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>20KW Solar Power System</p>
-                                <p className='mobile-exe-text-2'>Lagos, Nigeria</p>
-                            </div>                      
+                            <div className="mobile-executed-sub-content-3">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>Solar Powered ICT Center</p>
+                                    <p className='mobile-exe-text-2'>Ibadan, Nigeria</p>
+                                </div>                      
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div className="mobile-slider" ref={sliderRef3}>
-                    <div className="mobile-executed-contents">
-                        <div className="mobile-executed-sub-content">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>20KW Solar Power System</p>
-                                <p className='mobile-exe-text-2'>Lagos, Nigeria</p>
-                            </div>                      
+                    <div className="mobile-slider" ref={sliderRef2}>
+                        <div className="mobile-executed-contents" id='target-metrics'>
+                            <div className="mobile-executed-sub-content-2">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>Solar Powered Office</p>
+                                    <p className='mobile-exe-text-2'>Abuja, Nigeria</p>
+                                </div>                      
+                            </div>
+
+                            <div className="mobile-executed-sub-content-3">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>Solar Powered ICT Center</p>
+                                    <p className='mobile-exe-text-2'>Ibadan, Nigeria</p>
+                                </div>                      
+                            </div>
+
+                            <div className="mobile-executed-sub-content">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>20KW Solar Power System</p>
+                                    <p className='mobile-exe-text-2'>Lagos, Nigeria</p>
+                                </div>                      
+                            </div>
                         </div>
+                    </div>
 
-                        <div className="mobile-executed-sub-content-3">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>Solar Powered ICT Center</p>
-                                <p className='mobile-exe-text-2'>Ibadan, Nigeria</p>
-                            </div>                      
-                        </div>
+                    <div className="mobile-slider" ref={sliderRef3}>
+                        <div className="mobile-executed-contents">
+                            <div className="mobile-executed-sub-content">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>20KW Solar Power System</p>
+                                    <p className='mobile-exe-text-2'>Lagos, Nigeria</p>
+                                </div>                      
+                            </div>
 
-                        <div className="mobile-executed-sub-content-2">
-                            <div className="mobile-exe-text">
-                                <p className='mobile-exe-text-1'>Solar Powered Office</p>
-                                <p className='mobile-exe-text-2'>Abuja, Nigeria</p>
-                            </div>                      
+                            <div className="mobile-executed-sub-content-3">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>Solar Powered ICT Center</p>
+                                    <p className='mobile-exe-text-2'>Ibadan, Nigeria</p>
+                                </div>                      
+                            </div>
+
+                            <div className="mobile-executed-sub-content-2">
+                                <div className="mobile-exe-text">
+                                    <p className='mobile-exe-text-1'>Solar Powered Office</p>
+                                    <p className='mobile-exe-text-2'>Abuja, Nigeria</p>
+                                </div>                      
+                            </div>
                         </div>
                     </div>
                 </div>
