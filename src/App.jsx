@@ -3,7 +3,6 @@ import { Header, Body, Footer } from './components';
 
 
 
-
 const App = () => {
   return (
     <>

@@ -1,0 +1,80 @@
+.sub-about-1 {
+    background: url("../../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 0;
+    min-width: 100%;
+    height: 450px;
+}
+
+.sub-about-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: var(--brand-secondary-color);
+    z-index: -1;
+}
+
+.sub-about-1 .wrapper {
+    position: relative;
+    padding-top: 40px;
+}
+
+.main-about-sub-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    padding-top: 40px;
+}
+
+.about-tag {
+    width: 220px;
+    height: 36px;
+    background-color: #16a2493c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: -30px;
+    z-index: 600;
+}
+
+.about-tag img {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.about-tag p {
+    font-size: 16px;
+    color: var(--brand-primary-color);
+}
+
+.main-about-intro-1 {
+    max-width: 400px;
+    text-align: center;
+}
+
+.main-about-intro-1 p {
+    font-size: 56px;
+    color: #1D1F14;
+}
+
+.main-about-intro-1 span {
+    color: var(--brand-primary-color);
+}
+
+.main-about-intro-2 {
+    max-width: 866px;
+    height: 48px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.main-about-intro-2 p {
+    font-size: 16px;
+    color: #1D1F14;
+}

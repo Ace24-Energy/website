@@ -1,0 +1,23 @@
+.sub-about-2 {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.main-about-sub-wrapper-2 {
+    min-width: 1336px;
+    height: 541px;
+    background-color: var(--brand-secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+}
+
+.main-about-sub-wrapper-2 img {
+    min-width: 1246px;
+    height: 462px;
+    border-radius: 30px;
+}
