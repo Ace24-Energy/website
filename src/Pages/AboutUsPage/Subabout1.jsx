@@ -5,7 +5,7 @@ import { Energy } from '../../assets';
 
 const Subabout1 = () => {
   return (
-    <section className='sub-about-1'>
+    <section className='sub-about-1' id='target-sub-about-1'>
       <div className="wrapper">
         <Navbar />
         <div className="main-about-sub-wrapper">

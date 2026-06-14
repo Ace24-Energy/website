@@ -82,3 +82,128 @@
     font-size: 14px;
     color: #1D1F14;
 }
+
+
+
+
+
+/* TABLET VIEW */
+@media (max-width: 1040px) {
+    
+        .sub-team-4-intro {
+            width: 100%;
+        }
+    
+        .sub-team-4-intro-title {
+            margin-bottom: 0;
+        }
+    
+        .sub-team-4-intro-text p {
+            margin-top: 0;
+        }
+    
+        .sub-team-4-content-box {
+            width: 100%;
+            padding: 0 20px;
+            justify-content: center;
+            gap: 15px;
+        }
+    
+        .sub-team-4-contents {
+            width: 270px;
+        }
+    
+}
+
+
+
+
+
+
+/* MOBILE VIEW */
+
+@media (max-width: 720px) {
+    .sub-team-4 {
+        height: 1000px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sub-team-4-intro {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .sub-team-4-intro-title {
+        height: 40px;
+        display: flex;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .sub-team-4-intro-title p {
+        font-size: 30px;
+    }
+
+    .sub-team-4-intro-text p {
+        color: #5C7066;
+        font-size: 14px;
+        text-align: center;
+        width: 300px;
+        margin-top: 0;
+    }
+
+    .sub-team-4-content-box {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        gap: 15px;
+    }
+
+    .sub-team-4-contents {
+        width: 300px;
+        height: 160px;
+        border-radius: 16px;
+    }
+
+    .sub-team-4-contents-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .sub-team-4-contents-icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .sub-team-4-contents-title p {
+        font-weight: bold;
+        color: #1D1F14;
+        font-size: 14px;
+    }
+
+    .sub-team-4-contents-text {
+        max-width: 264px;
+        height: 90px;
+        margin-top: -15px;
+    }
+
+    .sub-team-4-contents-text p {
+        font-size: 12px;
+        color: #1D1F14;
+    }
+}

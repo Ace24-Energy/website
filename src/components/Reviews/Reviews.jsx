@@ -50,12 +50,12 @@ const slideLeft = () => {
           <div className="client-review-box">
             <div className="client-avatar"><img src={Avatar} alt="client-avatar" /></div>
             <div className="client-review">
-              <p className='client-review-text'>Ace 24 Energy made the switch to solar completely stress-free for us. From the first conversation to installation, everything was fast, 
-                professional, and transparent.
+              <p className='client-review-text'>I am extremely satisfied with the service I received. The staff took the time to understand our energy needs and provided a 
+                solution that was both efficient and cost-effective.
               </p>
               <div>
-                <p className='client-name'>Alex Bature</p>
-                <p className='client-status'>Business Owner, Lagos</p>
+                <p className='client-name'>James O.</p>
+                <p className='client-status'>Cyber Cafe, Lagos</p>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ const slideLeft = () => {
                 professional, and transparent.
               </p>
               <div>
-                <p className='client-name'>Alex Bature</p>
+                <p className='client-name'>Alex B.</p>
                 <p className='client-status'>Business Owner, Lagos</p>
               </div>
             </div>
@@ -76,15 +76,29 @@ const slideLeft = () => {
           <div className="client-review-box">
             <div className="client-avatar"><img src={Avatar} alt="client-avatar" /></div>
             <div className="client-review">
-              <p className='client-review-text'>Ace 24 Energy made the switch to solar completely stress-free for us. From the first conversation to installation, everything was fast, 
-                professional, and transparent.
+              <p className='client-review-text'>Exceptional service and professionalism. From the initial consultation to project completion, the team 
+                kept us informed every step of the way.
               </p>
               <div>
-                <p className='client-name'>Alex Bature</p>
-                <p className='client-status'>Business Owner, Lagos</p>
+                <p className='client-name'>David E.</p>
+                <p className='client-status'>Hotels and resort, Lagos</p>
               </div>
             </div>
           </div>
+
+          <div className="client-review-box">
+            <div className="client-avatar"><img src={Avatar} alt="client-avatar" /></div>
+            <div className="client-review">
+              <p className='client-review-text'>We recently switched to this energy company and the experience has been excellent from start to finish.
+                 The team was professional, responsive, and made the entire process seamless.
+              </p>
+              <div>
+                <p className='client-name'>John E.</p>
+                <p className='client-status'>Estate management, Lagos</p>
+              </div>
+            </div>
+          </div>
+
           </div>
           <div className="right-arrow" onClick={next}>
             <img src={Arrowright} alt="right-arrow-icon" />
@@ -103,8 +117,8 @@ const slideLeft = () => {
               <div className="mobile-review-slider" ref={boxSlideRef}>
                 <div className="mobile-review-sub-content">
                   <div className="mobile-review">
-                    <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
-                      installation, everything was fast, professional, and transparent.
+                    <p>I am extremely satisfied with their service. The staff took the time to understand our energy needs and provided a 
+                      solution that was both efficient and cost-effective.
                     </p>
                   </div>
                   <div className="mobile-review-ratings">
@@ -117,7 +131,29 @@ const slideLeft = () => {
                   <div className="mobile-review-profile">
                     <img src={Avatar2} alt="Profile-icon" />
                     <div className="mobile-review-names">
-                      <p className="mobile-review-name-1">Akin Moses</p>
+                      <p className="mobile-review-name-1">James O.</p>
+                      <p className="mobile-review-name-2">Cyber Cafe, Lagos</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mobile-review-sub-content">
+                  <div className="mobile-review">
+                    <p>Ace 24 Energy made the switch to solar completely stress-free for us. From the first conversation to installation, everything was fast, 
+                professional, and transparent.
+                    </p>
+                  </div>
+                  <div className="mobile-review-ratings">
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                    <img src={Star} alt="Rating-icon" />
+                  </div>
+                  <div className="mobile-review-profile">
+                    <img src={Avatar2} alt="Profile-icon" />
+                    <div className="mobile-review-names">
+                      <p className="mobile-review-name-1">Alex B.</p>
                       <p className="mobile-review-name-2">Business Owner, Lagos.</p>
                     </div>
                   </div>
@@ -125,8 +161,8 @@ const slideLeft = () => {
 
                 <div className="mobile-review-sub-content">
                   <div className="mobile-review">
-                    <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
-                      installation, everything was fast, professional, and transparent.
+                    <p>Exceptional service and professionalism. From the initial consultation to project completion, the team 
+                kept us informed every step of the way.
                     </p>
                   </div>
                   <div className="mobile-review-ratings">
@@ -139,16 +175,16 @@ const slideLeft = () => {
                   <div className="mobile-review-profile">
                     <img src={Avatar2} alt="Profile-icon" />
                     <div className="mobile-review-names">
-                      <p className="mobile-review-name-1">Akin Moses</p>
-                      <p className="mobile-review-name-2">Business Owner, Lagos.</p>
+                      <p className="mobile-review-name-1">David E.</p>
+                      <p className="mobile-review-name-2">Hotels and Resort, Lagos.</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="mobile-review-sub-content">
                   <div className="mobile-review">
-                    <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
-                      installation, everything was fast, professional, and transparent.
+                    <p>We recently switched to Ace 24 and the experience has been excellent from start to finish.
+                 The team was professional,  and made the entire process seamless.
                     </p>
                   </div>
                   <div className="mobile-review-ratings">
@@ -161,30 +197,8 @@ const slideLeft = () => {
                   <div className="mobile-review-profile">
                     <img src={Avatar2} alt="Profile-icon" />
                     <div className="mobile-review-names">
-                      <p className="mobile-review-name-1">Akin Moses</p>
-                      <p className="mobile-review-name-2">Business Owner, Lagos.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mobile-review-sub-content">
-                  <div className="mobile-review">
-                    <p>Ace24 Energy made the switch to solar amazingly stress-free for us. From the first consultation to
-                      installation, everything was fast, professional, and transparent.
-                    </p>
-                  </div>
-                  <div className="mobile-review-ratings">
-                    <img src={Star} alt="Rating-icon" />
-                    <img src={Star} alt="Rating-icon" />
-                    <img src={Star} alt="Rating-icon" />
-                    <img src={Star} alt="Rating-icon" />
-                    <img src={Star} alt="Rating-icon" />
-                  </div>
-                  <div className="mobile-review-profile">
-                    <img src={Avatar2} alt="Profile-icon" />
-                    <div className="mobile-review-names">
-                      <p className="mobile-review-name-1">Akin Moses</p>
-                      <p className="mobile-review-name-2">Business Owner, Lagos.</p>
+                      <p className="mobile-review-name-1">John E.</p>
+                      <p className="mobile-review-name-2">Estate Mananagement, Lagos.</p>
                     </div>
                   </div>
                 </div>

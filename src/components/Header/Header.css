@@ -143,20 +143,20 @@ header {
     }
 
     header .wrapper {
-        position: relative;
-        padding-top: 40px;
+        padding-top: 0;
     }
 
     header .cta {
         position: absolute;
         display: flex;
-        justify-content: space-between;
-        margin-top: 75px;
-        max-width: 800px;
+        margin-top: 100px;
+        min-width: 100%;
+        justify-content: center;
+        gap: 20px;
     }
 
     header .sub-wrapper {
-        width: max-content;
+        max-width: 500px;
         height: 270px;
         margin-right: 0;
         margin-right: 15px;
@@ -168,6 +168,7 @@ header {
         font-size: 35.7px;
         line-height: 45px;
         line-break: none;
+        max-width: 500px;
     }
 
     header .intro-text p {
@@ -188,14 +189,14 @@ header {
         font-size: 18px;
         color: var(--black-text-color);
         line-height: 24px;
-        width: 529px;
+        width: 500px;
         height: 96px;
     }
 
     header .app-buttons {
         display: flex;
         margin-top: 60px;
-        max-width: 305px;
+        max-width: 290px;
         justify-content: space-between;
     }
 
@@ -280,7 +281,7 @@ header {
     }
 
     header .intro-text {
-        font-size: 17px;
+        font-size: 19px;
         max-width: 290px;
         font-weight: 600;
         text-align: center;
@@ -301,10 +302,10 @@ header {
     }
 
     header .sub-intro-text {
-        font-size: 9px;
+        font-size: 11px;
         height: 46px;
         max-width: 345px;
-        line-height: 12px;
+        line-height: normal;
         text-align: center;
         margin-top: 0;
     }
@@ -318,13 +319,13 @@ header {
     }
 
     header .app-buttons {
-        width: 180px;
+        width: 220px;
         margin-top: 15px;
         justify-content: space-around;
     }
 
     header .app-buttons .google-play-button {
-        width: 85px;
+        width: 100px;
         height: 25px;
     }
 
@@ -336,20 +337,21 @@ header {
     }
 
     header .app-buttons .google-play-button .button-text .first-text {
-        font-size: 7px;
+        font-size: 8px;
     }
 
     header .app-buttons .google-play-button .button-text .second-text {
-        font-size: 7px;
+        font-size: 8px;
+        margin-bottom: 10px;
     }
 
     header .app-buttons .whatsapp-button {
-        width: 85px;
+        width: 100px;
         height: 25px;
     }
 
     header .app-buttons .whatsapp-button p {
-        font-size: 7px;
+        font-size: 8px;
         max-width: 100%;
     }
 }

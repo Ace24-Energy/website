@@ -9,10 +9,10 @@ const AboutUs2 = () => {
       <section className='wrapper' id='main-container-2'>
         <div className="intro-text-wrapper">
           <p className='intro-2'>What Makes Us Different</p>
-          <p className='intro-2-text'>
+          {/* <p className='intro-2-text'>
             Create, assign, and manage tasks with a drag-and-drop interface.
             Visualize your workflow in Kanban, Gantt, or calendar views. 
-          </p>
+          </p> */}
         </div>
         <div className="sub-container-2">
           <div className="inner-sub-container-1">

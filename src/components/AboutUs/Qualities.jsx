@@ -12,24 +12,39 @@ const Qualities = () => {
         </div>
 
         <div className="quality-contents">
-          <div className="quality-content-box">
-            <img src={Overlay1} alt="Quality-icon" />
-            <p className="quality-amount">₦100m</p>
-            <p className="quality-text-1" id='ajust-quality-text'>Revenue Generated</p>
-            <p className="quality-text-2">Since inception</p>
+          <div className="quality-content-top">
+            <div className="quality-content-box">
+              <img src={Overlay1} alt="Quality-icon" />
+              <p className="quality-amount">₦100m</p>
+              <p className="quality-text-1" id='ajust-quality-text'>Revenue Generated</p>
+              <p className="quality-text-2">Since inception</p>
+            </div>
+            <div className="quality-content-box">
+              <img src={Overlay2} alt="Quality-icon" />
+              <p className="quality-amount">63</p>
+              <p className="quality-text-1">Installations</p>
+              <p className="quality-text-2">Completed successfully</p>
+            </div>
+            <div className="quality-content-box">
+              <img src={Overlay3} alt="Quality-icon" />
+              <p className="quality-amount">₦36m</p>
+              <p className="quality-text-1" id='ajust-quality-text'>Projected Revenue</p>
+              <p className="quality-text-2">In 3 years</p>
+            </div>
           </div>
-          <div className="quality-content-box">
-            <img src={Overlay2} alt="Quality-icon" />
-            <p className="quality-amount">63</p>
-            <p className="quality-text-1">Installations</p>
-            <p className="quality-text-2">Completed successfully</p>
-          </div>
-          <div className="quality-content-box">
-            <img src={Overlay1} alt="Quality-icon" />
-            <p className="quality-amount">₦36m</p>
-            <p className="quality-text-1" id='ajust-quality-text'>Projected Revenue</p>
-            <p className="quality-text-2">In 3 years</p>
-          </div>
+          <div className="quality-content-bottom">
+            <div className="quality-content-box">
+              <img src={Overlay3} alt="Quality-icon" />
+              <p className="quality-amount">10MW</p>
+              <p className="quality-text-1" id='ajust-quality-text'>Installled Capacity</p>
+            </div>
+            <div className="quality-content-box">
+              <img src={Overlay3} alt="Quality-icon" />
+              <p className="quality-amount">-5588MT</p>
+              <p className="quality-text-1" id='ajust-quality-text'>Carbon Emission</p>
+              <p className="quality-text-2">-5588MT Cumulative CO2 Saved</p>
+            </div>
+          </div>  
         </div>
     </section>
   )

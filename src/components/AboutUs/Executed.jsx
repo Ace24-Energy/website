@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from "react";
 import "./Executed.css";
-import { ExecutedImage1, ExecutedImage2, ExecutedImage3, Location } from '../../assets';
+import { ExecutedImage1, ExecutedImage2, ExecutedImage3, ExecutedImage4, ExecutedImage5, Location } from '../../assets';
 
 
 const Executed = () => {
@@ -137,7 +137,7 @@ const Executed = () => {
                     </div>
 
                     <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage3} alt="Executed-project-image" />
+                        <img className="execution-image" src={ExecutedImage4} alt="Executed-project-image" />
                         <div className="execution-name"><p>Solar-Powered ICT Centre</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>North-East Development Commission (NEDC)</p></div>
                         <div className="execution-details">
@@ -149,10 +149,9 @@ const Executed = () => {
                             </p> 
                         </div>
                     </div>
-            </div>
-            <div className="group">
-                    <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage1} alt="Executed-project-image" />
+
+                     <div className="executed-content">
+                        <img className="execution-image" src={ExecutedImage5} alt="Executed-project-image" />
                         <div className="execution-name"><p>30KVA Solar Power System</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Lekki, Lagos</p></div>
                         <div className="execution-details">
@@ -184,7 +183,7 @@ const Executed = () => {
                     </div>
 
                     <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage3} alt="Executed-project-image" />
+                        <img className="execution-image" src={ExecutedImage5} alt="Executed-project-image" />
                         <div className="execution-name"><p>Solar-Powered ICT Centre</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>North-East Development Commission (NEDC)</p></div>
                         <div className="execution-details">
@@ -210,7 +209,38 @@ const Executed = () => {
                             </p> 
                         </div>
                     </div>
+
+                    <div className="executed-content">
+                        <img className="execution-image" src={ExecutedImage1} alt="Executed-project-image" />
+                        <div className="execution-name"><p>Solar-Powered ICT Centre</p></div>
+                        <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>North-East Development Commission (NEDC)</p></div>
+                        <div className="execution-details">
+                            <p>Designed and executed a complete solar power system for a government-backed ICT centre.</p>
+                            <p className='outcome'>Outcome:</p>
+                            <p className='outcome-details'>
+                                Sustainable energy supporting daily ICT operations and
+                                training programs.
+                            </p> 
+                        </div>
+                    </div>
+
+                    <div className="executed-content">
+                        <img className="execution-image" src={ExecutedImage4} alt="Executed-project-image" />
+                        <div className="execution-name"><p>Solar-Powered ICT Centre</p></div>
+                        <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>North-East Development Commission (NEDC)</p></div>
+                        <div className="execution-details">
+                            <p>Designed and executed a complete solar power system for a government-backed ICT centre.</p>
+                            <p className='outcome'>Outcome:</p>
+                            <p className='outcome-details'>
+                                Sustainable energy supporting daily ICT operations and
+                                training programs.
+                            </p> 
+                        </div>
+                    </div>
             </div>
+            
+                   
+            
             </div>
         </section>
 
@@ -247,21 +277,21 @@ const Executed = () => {
 
                     <div className="mobile-slider" ref={sliderRef2}>
                         <div className="mobile-executed-contents" id='target-metrics'>
-                            <div className="mobile-executed-sub-content-2">
+                            <div className="mobile-executed-sub-content-4">
                                 <div className="mobile-exe-text">
                                     <p className='mobile-exe-text-1'>Solar Powered Office</p>
                                     <p className='mobile-exe-text-2'>Abuja, Nigeria</p>
                                 </div>                      
                             </div>
 
-                            <div className="mobile-executed-sub-content-3">
+                            <div className="mobile-executed-sub-content-5">
                                 <div className="mobile-exe-text">
                                     <p className='mobile-exe-text-1'>Solar Powered ICT Center</p>
                                     <p className='mobile-exe-text-2'>Ibadan, Nigeria</p>
                                 </div>                      
                             </div>
 
-                            <div className="mobile-executed-sub-content">
+                            <div className="mobile-executed-sub-content-6">
                                 <div className="mobile-exe-text">
                                     <p className='mobile-exe-text-1'>20KW Solar Power System</p>
                                     <p className='mobile-exe-text-2'>Lagos, Nigeria</p>
@@ -272,7 +302,7 @@ const Executed = () => {
 
                     <div className="mobile-slider" ref={sliderRef3}>
                         <div className="mobile-executed-contents">
-                            <div className="mobile-executed-sub-content">
+                            <div className="mobile-executed-sub-content-7">
                                 <div className="mobile-exe-text">
                                     <p className='mobile-exe-text-1'>20KW Solar Power System</p>
                                     <p className='mobile-exe-text-2'>Lagos, Nigeria</p>
@@ -286,7 +316,7 @@ const Executed = () => {
                                 </div>                      
                             </div>
 
-                            <div className="mobile-executed-sub-content-2">
+                            <div className="mobile-executed-sub-content-8">
                                 <div className="mobile-exe-text">
                                     <p className='mobile-exe-text-1'>Solar Powered Office</p>
                                     <p className='mobile-exe-text-2'>Abuja, Nigeria</p>

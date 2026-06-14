@@ -1,6 +1,6 @@
 #main-container-5 {
     width: 1328px;
-    height: 515px;
+    height: 830px;
     background-color: var(--brand-primary-color);
     padding-top: 0;
     border-radius: 32px;
@@ -8,12 +8,13 @@
     margin-bottom: 120px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
 .quality-intro {
     justify-items: center;
+    margin-top: 30px;
 }
 
 .quality-intro-text-1 {
@@ -34,11 +35,25 @@
 
 .quality-contents {
     width: 1264px;
-    height: 233px;
-    margin-top: 40px;
+    height: 510px;
+    margin-top: 60px;
     margin-bottom: 50px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quality-content-top {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.quality-content-bottom {
+    display: flex;
+    width: 790px;
+    justify-content: space-between;
 }
 
 .quality-content-box {
@@ -95,11 +110,11 @@
 /* TABLET VIEW */
 @media (max-width: 1040px) {
 #main-container-5 {
-        max-width: 900px;
-        height: 365px;
+        max-width: 100%;
+        height: 620px;
         background-color: var(--brand-primary-color);
         padding-top: 15px;
-        border-radius: 32px;
+        border-radius: 0;
         margin-top: 120px;
         margin-bottom: 120px;
     }
@@ -109,7 +124,7 @@
     }
 
     .quality-intro-text-1 {
-        font-size: 27px;
+        font-size: 32px;
         line-height: 40px;
         letter-spacing: 0.98px;
         color: var(--white-text-color);
@@ -125,17 +140,30 @@
     }
 
     .quality-contents {
-        max-width: 900px;
-        height: 233px;
+        max-width: fit-content;
+        height: fit-content;
         justify-self: center;
-        margin-top: 40px;
+        margin-top: 50px;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .quality-content-top {
+        display: flex;
+        justify-content: space-between;
+        max-width: 850px;
+    }
+
+    .quality-content-bottom {
+        display: flex;
+        max-width: 565px;
+        justify-content: space-between;
     }
 
     .quality-content-box {
         width: 270px;
-        height: 133px;
+        height: 150px;
         border-radius: 16px;
         border: #ffffff58;
         background-color: #ffffff1c;
@@ -191,7 +219,7 @@
 @media (max-width: 720px) {
     #main-container-5 {
             max-width: 100%;
-            height: 170px;
+            height: 700px;
             background-color: var(--brand-primary-color);
             padding-top: 10px;
             border-radius: 0;
@@ -206,7 +234,7 @@
         }
 
         .quality-intro-text-1 {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
             line-height: 0;
             letter-spacing: 0;
@@ -215,7 +243,7 @@
         }
 
         .quality-intro-text-2 {
-            font-size: 8px;
+            font-size: 9px;
             line-height: 24px;
             letter-spacing: 0.5px;
             color: #ffffffb0;
@@ -228,13 +256,27 @@
             margin-top: 4px;
             margin-bottom: 3px;
             display: flex;
+            flex-direction: column;
             justify-self: normal;
             justify-content: space-around;
         }
 
+        .quality-content-top {
+            flex-direction: column;
+            max-width: fit-content;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .quality-content-bottom {
+            flex-direction: column;
+            max-width: fit-content;
+            gap: 10px;
+        }
+
         .quality-content-box {
-            width: 105px;
-            height: 80px;
+            width: 135px;
+            height: 105px;
             border-radius: 9px;
             padding-top: 15px;
             padding-bottom: 15px;
@@ -260,7 +302,7 @@
         }
 
         .quality-text-1 {
-            font-size: 8px;
+            font-size: 9px;
             line-height: 10px;
             color: var(--white-text-color);
             text-align: center;
@@ -270,10 +312,12 @@
         }
 
         .quality-text-2 {
-            font-size: 7px;
+            font-size: 8px;
             list-style: 20px;
             color: #ffffffa8;
             margin-top: 0;
+            text-align: center;
+            max-width: 90px;
         }
 
         #ajust-quality-text {

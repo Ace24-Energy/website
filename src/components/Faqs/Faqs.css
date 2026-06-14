@@ -85,6 +85,7 @@
             height: 417px;
             max-width: 100%;
             margin-top: 70px;
+            padding: 20px 40px;
         }
     
         .question-title {
@@ -96,11 +97,11 @@
         }
     
         #first-title {
-            font-size: 23px;
+            font-size:28px;
         }
     
         #second-title {
-            font-size: 23px;
+            font-size: 26px;
         }
     
         .questions p {
@@ -136,7 +137,7 @@
     }
 
     .mobile-faq-intro-1 {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
         color: #000000;
         margin-bottom: 6px;
@@ -144,7 +145,7 @@
     }
 
     .mobile-faq-intro-2 {
-        font-size: 9px;
+        font-size: 10px;
         letter-spacing: 0.5px;
         color: var(--brand-primary-color);
         margin-top: 0;
@@ -206,7 +207,7 @@
     }
 
     .mobile-faq-answers p {
-        font-size: 9px;
+        font-size: 10px;
         max-width: 300px;
         color: var(--brand-primary-dark);
     }

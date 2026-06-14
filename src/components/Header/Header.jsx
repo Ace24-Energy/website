@@ -2,6 +2,8 @@ import React from 'react';
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
 import {Container, Googleplay, Worksite} from "../../assets/";
+import { Link } from "react-router";
+
 const Header = () => {
   return (
     <header>
@@ -16,14 +18,16 @@ const Header = () => {
               to realiable power simple, flexible, and sustainable.
             </p>
             <div className="app-buttons">
-              <button className='google-play-button'>
-                <img src={Googleplay} alt="google-play" /> 
-                <div className="button-text">
-                  <p className='first-text'>GET IT ON</p> 
-                  <p className='second-text'>Google Play</p>
-                </div>  
-              </button>
-              <button className='whatsapp-button'><p>DM us on Whatsapp</p></button>
+              <Link to="/Playstore">
+                <button className='google-play-button'>
+                  <img src={Googleplay} alt="google-play" /> 
+                  <div className="button-text">
+                    <p className='first-text'>GET IT ON</p> 
+                    <p className='second-text'>Google Play</p>
+                  </div>  
+                </button>
+              </Link> 
+              <a href="https://wa.me/+2347043030570" target='_blank'><button className='whatsapp-button'><p>DM us on Whatsapp</p></button></a> 
             </div>
           </div>
           <img className= "brand-image-1" src={Container} alt="Brand-image-1" />

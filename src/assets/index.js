@@ -12,6 +12,8 @@ import Leaf from "./leaf-icon.png";
 import ExecutedImage1 from "./execution-image1.png";
 import ExecutedImage2 from "./execution-image2.png";
 import ExecutedImage3 from "./execution-image3.png";
+import ExecutedImage4 from "./new-ace-img-1.JPG";
+import ExecutedImage5 from "./new-ace-img-2.JPG";
 import Location from "./location.png";
 import Verify from "./verify.png";
 import Arrowleft from "./arrow-left.png";
@@ -50,6 +52,7 @@ import Arrowup from "./arrowup.png";
 import Energy from "./energy.png";
 import Aboutpageimg1 from "./about-page-img-1.png";
 import Aboutpageimg2 from "./about-page-img-2.png";
+import Aboutpageimg3 from "./about-page-img-3.JPG";
 import Blureffect1 from "./Overlay+Blur1.png";
 import Blureffect2 from "./Overlay+Blur2.png";
 import Checklist from "./checklist.png";
@@ -68,11 +71,42 @@ import Core1 from "./core-value-1.png";
 import Core2 from "./core-value-2.png";
 import Core3 from "./core-value-3.png";
 import Core4 from "./core-value-4.png";
+import Serviceicon1 from "./ServiceIcon1.png";
+import Serviceicon2 from "./ServiceIcon2.png";
+import Serviceicon3 from "./ServiceIcon3.png";
+import Serviceicon4 from "./ServiceIcon4.png";
+import Serviceicon5 from "./ServiceIcon5.png";
+import Serviceicon6 from "./ServiceIcon6.png";
+import Serviceicon7 from "./ServiceIcon7.png";
+import Serviceicon8 from "./ServiceIcon8.png";
+import Serviceicon9 from "./ServiceIcon9.png";
+import Serviceicon10 from "./ServiceIcon10.png";
+import Serviceicon11 from "./ServiceIcon11.png";
+import Serviceicon12 from "./ServiceIcon12.png";
+import Serviceicon13 from "./ServiceIcon13.png";
+import Mark from "./mark.png";
+import ListCheck from "./listcheck.png";
+import SmallLeaf from "./smallleaf.png";
+import Working from "./working.png";
+import Working3 from "./working-3.png";
+import NewExe1 from "./mobile-exe-7.JPG";
+import NewExe2 from "./mobile-exe-8.JPG";
+
+
+
+
+
+
+
+
+
 
 
 export { Logo, Container, Googleplay, Arrow, AboutUs1Image, Statistics1, Statistics2, Statistics3, Statistics4, Statistics5, Leaf,
-         ExecutedImage1, ExecutedImage2, ExecutedImage3, Location, Verify, Arrowleft, Arrowright, Avatar, Plus, Call, Email, Instagram,
+         ExecutedImage1, ExecutedImage2, ExecutedImage3, ExecutedImage4, ExecutedImage5, Location, Verify, Arrowleft, Arrowright, Avatar, Plus, Call, Email, Instagram,
          Facebook, Twitter, Linkedin, Whatsapp, Menu, Close, Overlay1, Overlay2, Overlay3, Logo2, Cancel, Worksite, Container2, MobileStat1,
          MobileStat2, MobileStat3, MobileStat4, MobileStat5, MobileSol1, MobileSol2, MobileSol3, MobileSol4, Star, Avatar2, Arrowdown, Arrowup,
-         Energy, Aboutpageimg1, Aboutpageimg2, Blureffect1, Blureffect2, Checklist, Mission, Vision, Abouticon1, Abouticon2, Abouticon3, Abouticon4,
-         Ourteamimg1, Ourteamicon1, Crown, Spanner, Headphone, Core1, Core2, Core3, Core4};
+         Energy, Aboutpageimg1, Aboutpageimg2, Aboutpageimg3, Blureffect1, Blureffect2, Checklist, Mission, Vision, Abouticon1, Abouticon2, Abouticon3, Abouticon4,
+         Ourteamimg1, Ourteamicon1, Crown, Spanner, Headphone, Core1, Core2, Core3, Core4, Serviceicon1, Serviceicon2, Serviceicon3, Serviceicon4,
+        Serviceicon5, Serviceicon6, Serviceicon7, Serviceicon8, Serviceicon9, Serviceicon10, Serviceicon11, Serviceicon12, Serviceicon13, Mark, ListCheck, SmallLeaf, Working, Working3,
+         NewExe1, NewExe2};

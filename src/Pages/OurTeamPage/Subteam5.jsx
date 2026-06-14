@@ -26,7 +26,7 @@ const Subteam5 = () => {
         <div className="sub-about-5-content-text-2">
           <p>Meet the team that powers your tomorrow.</p>
         </div>
-        <button><p>Get In Touch</p><img src={Arrow} alt="Arrow" /></button>
+        <button><a href="https://wa.me/+2347043030570" target='blank'><p>Get In Touch</p><img src={Arrow} alt="Arrow" /></a></button>
       </div>
     </section>
   )

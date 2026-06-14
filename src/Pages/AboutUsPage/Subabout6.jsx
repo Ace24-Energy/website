@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Subabout6.css";
 import { Arrow } from '../../assets';
-
+import { Link } from "react-router";
 
 const Subabout6 = () => {
   return (
@@ -18,7 +18,7 @@ const Subabout6 = () => {
                     Get Started Today</span> 
                 </p>
             </div>
-            <button> <p> Get Started Today</p> <img src={Arrow} alt="Arrow-icon" /></button>
+            <Link to="/Playstore"><button> <p> Get Started Today</p> <img src={Arrow} alt="Arrow-icon" /></button></Link>
         </div>
     </section>
   )

@@ -6,7 +6,7 @@
     justify-content: center;
     background-color: #ffffff;
     justify-content: space-between;
-    margin-top: 160px;
+    margin-top: 60px;
 }
 
 .mobile-main-container-2 {
@@ -21,7 +21,7 @@
         display: flex;
         align-self: center;
         flex-direction: column;
-        margin-bottom: 20px;
+        margin-bottom: 0;
 }
 
 .intro-2 {
@@ -143,6 +143,10 @@
         #main-container-2 {
             height: 800px;
             margin-top: 40px;
+            min-width: 100%;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 50px;
         }
     
         .intro-text-wrapper {
@@ -150,8 +154,8 @@
         }
     
         .intro-2 {
-            font-size: 26.8px;
-            margin-bottom: 5px;
+            font-size: 32px;
+            margin-bottom: 0;
         }
     
         .intro-2-text {
@@ -162,8 +166,8 @@
     
         .sub-container-2 {
             max-width: 900px;
-            height: 400px;
-            margin-top: -50px;
+            height: fit-content;
+            margin-top: 0;
             justify-self: center;
         }
     
@@ -174,8 +178,8 @@
     
         .sub-container-content-upper {
             width: 442.5px;
-            height: 260px;
-            border-radius: 10px;
+            height: 290px;
+            border-radius: 16px;
             padding-top: 28px;
             padding-bottom: 28px;
             padding-right: 32px;
@@ -208,8 +212,8 @@
     
         .sub-container-content-lower {
             width: 362px;
-            height: 215px;
-            border-radius: 10px;
+            height: 255px;
+            border-radius: 16px;
             padding: 10px 10px;
         }
     
@@ -252,14 +256,14 @@
     }
 
     .mobile-intro-title-2 {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
         color: var(--brand-primary-dark);
         margin-bottom: 10px;
     }
 
     .mobile-intro-text-2 {
-        font-size: 8px;
+        font-size: 10px;
         color: var(--brand-primary-dark);
         margin-top: 0;
     }
@@ -283,7 +287,7 @@
         gap: 15px;
         align-items: center;
         background-color: #0054271a;
-        height: 50px;
+        height: 60px;
         border-radius: 10px;
         margin-bottom: 10px;
         padding-left: 10px;
@@ -300,14 +304,14 @@
     }
 
     .mobile-main-content-text-1 {
-        font-size: 9px;
+        font-size: 10px;
         color: var(--brand-primary-dark);
         font-weight: bold;
         margin-bottom: 0;
     }
 
     .mobile-main-content-text-2 {
-        font-size: 7.5px;
+        font-size: 10px;
         color: var(--brand-primary-dark);
         margin-top: 5px;
     }

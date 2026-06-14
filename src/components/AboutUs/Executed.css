@@ -42,7 +42,7 @@
 .group {
     display: flex;
     gap: 15px;
-    animation: spin 45s infinite linear;
+    animation: spin 30s linear infinite;
 }
 
 .executed-content {
@@ -54,6 +54,7 @@
     width: 369px;
     height: 269px;
     border-radius: 16px;
+    object-fit: cover;
 }
 
 .execution-name {
@@ -121,38 +122,43 @@
 }
 
 @keyframes spin {
-    from {translate: 0;}
-    to {translate: -100%;}
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 /* TABLET VIEW */
 @media (max-width: 1040px) {
         #main-container-4 {
-            height: 600px;
+            height: 700px;
             border-radius: 16px;
-            padding: 20px 17px;
+            padding: 30px 25px;
             margin-top: 70px;
             max-width: 900px;
         }
     
         .executed-intro {
             margin-top: 15px;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
         }
     
         .executed-intro p {
-            font-size: 27px;
+            font-size: 32px;
             line-height: 28px;
         }
     
         .executed-content {
             width: 230px;
-            height: 350px;
+            height: 550px;
         }
     
         .execution-image {
             width: 230px;
-            height: 175px;
+            height: 185px;
             border-radius: 10px;
         }
     
@@ -206,7 +212,7 @@
     }
 
     .mobile-executed-intro p {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
         color: var(--brand-primary-dark);
         margin-bottom: 10px;
@@ -272,6 +278,66 @@
         position: relative;
     }
 
+    /* TO DISPLAY FOURTH IMAGE */
+    .mobile-executed-sub-content-4 {
+        min-width: 345px;
+        height: 85px;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../../assets/about-page-img-1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 9px;
+        position: relative;
+    }
+
+    /* TO DISPLAY FIFTH IMAGE */
+    .mobile-executed-sub-content-5 {
+        min-width: 345px;
+        height: 85px;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../../assets/about-page-img-3.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 9px;
+        position: relative;
+    }
+
+    /* TO DISPLAY SIXTH IMAGE */
+    .mobile-executed-sub-content-6 {
+        min-width: 345px;
+        height: 85px;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../../assets/new-ace-img-2.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 9px;
+        position: relative;
+    }
+
+    /* TO DISPLAY SEVENTH IMAGE */
+    .mobile-executed-sub-content-7 {
+        min-width: 345px;
+        height: 85px;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../../assets/panel-installation.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 9px;
+        position: relative;
+    }
+
+    /* TO DISPLAY EIGHT IMAGE */
+    .mobile-executed-sub-content-8 {
+        min-width: 345px;
+        height: 85px;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../../assets/mobile-exe-8.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 9px;
+        position: relative;
+    }
+
     .mobile-exe-text {
         position: absolute;
         padding-left: 10px;
@@ -280,14 +346,14 @@
 
     .mobile-exe-text-1 {
         color: var(--white-text-color);
-        font-size: 8px;
+        font-size: 9px;
         font-weight: bold;
         margin-bottom: 0;
     }
 
     .mobile-exe-text-2 {
         color: #ffffffb0;
-        font-size: 7px;
+        font-size: 8px;
         margin-top: 5px;
     }
 }

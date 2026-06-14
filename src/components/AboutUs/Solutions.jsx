@@ -109,7 +109,7 @@ const Solutions = () => {
 
 
       {/* MOBILE VIEW */}
-      <section className="mobile-main-container-3" id='target-mobile-solutions'>
+      <section id='target-mobile-solutions' className="mobile-main-container-3" >
         <div className="mobile-solution-intro"><p>Our Solutions</p></div>
         <div className="mobile-wrapper-3">
           <div className="mobile-sub-container-3">

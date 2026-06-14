@@ -6,6 +6,10 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Mainabout from './Pages/AboutUsPage/Mainabout.jsx';
 import Ourteam from './Pages/OurTeamPage/Ourteam.jsx';
+import Services from './Pages/ServicesPage/Services.jsx';
+import Playstore from './Pages/PlaystorePage/Playstore.jsx';
+
+
 
 const router = createBrowserRouter([
   {
@@ -21,6 +25,16 @@ const router = createBrowserRouter([
   {
     path: "OurTeam",
     element: <Ourteam/>
+  },
+
+  {
+    path: "Services",
+    element: <Services/>
+  },
+
+  {
+   path: "Playstore",
+    element: <Playstore/>
   },
 ]);
 
