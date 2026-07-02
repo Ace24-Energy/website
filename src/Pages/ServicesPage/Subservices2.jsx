@@ -409,7 +409,7 @@ const Subservices2 = () => {
             </div>
         </div>
 
-        {/* BOX 7 */}
+        {/* BOX 7
         <div className="sub-service-2-content-box">
              <div className="sub-service-2-content-box-icon">
                 <img src={Serviceicon10} alt="Serviceicon10" />
@@ -470,9 +470,9 @@ const Subservices2 = () => {
                 </button>
                 </Link>
             </div>
-        </div>
+        </div> */}
 
-        {/* BOX 8 */}
+        {/* BOX 8 
         <div className="sub-service-2-content-box">
              <div className="sub-service-2-content-box-icon">
                 <img src={Serviceicon11} alt="Serviceicon11" />
@@ -534,7 +534,8 @@ const Subservices2 = () => {
                 </Link>
             </div>
         </div>
-
+            */}
+            
         {/* BOX 9 */}
         <div className="sub-service-2-content-box">
               <div className="sub-service-2-content-box-icon">

@@ -37,6 +37,9 @@
     width: 600px;
     height: 645px;
     margin-right: 15px;
+    object-fit: cover;
+    border-radius: 16px;
+    position: relative;
 }
 
 .sub-container-1 {

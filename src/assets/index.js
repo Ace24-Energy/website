@@ -3,6 +3,7 @@ import Container from "./Container.png";
 import Googleplay from "./google-play.png";
 import Arrow from "./right-arrow.png";
 import AboutUs1Image from "./aboutUs-1.png";
+import AboutUs2Image from "./replace-home-img.jpg";
 import Statistics1 from "./statistics.png";
 import Statistics2 from "./statistics-2.png";
 import Statistics3 from "./statistics-3.png";
@@ -14,6 +15,7 @@ import ExecutedImage2 from "./execution-image2.png";
 import ExecutedImage3 from "./execution-image3.png";
 import ExecutedImage4 from "./new-ace-img-1.JPG";
 import ExecutedImage5 from "./new-ace-img-2.JPG";
+import ExecutedImage6 from "./about-replace.jpg";
 import Location from "./location.png";
 import Verify from "./verify.png";
 import Arrowleft from "./arrow-left.png";
@@ -109,4 +111,4 @@ export { Logo, Container, Googleplay, Arrow, AboutUs1Image, Statistics1, Statist
          Energy, Aboutpageimg1, Aboutpageimg2, Aboutpageimg3, Blureffect1, Blureffect2, Checklist, Mission, Vision, Abouticon1, Abouticon2, Abouticon3, Abouticon4,
          Ourteamimg1, Ourteamicon1, Crown, Spanner, Headphone, Core1, Core2, Core3, Core4, Serviceicon1, Serviceicon2, Serviceicon3, Serviceicon4,
         Serviceicon5, Serviceicon6, Serviceicon7, Serviceicon8, Serviceicon9, Serviceicon10, Serviceicon11, Serviceicon12, Serviceicon13, Mark, ListCheck, SmallLeaf, Working, Working3,
-         NewExe1, NewExe2};
+         NewExe1, NewExe2, AboutUs2Image, ExecutedImage6};

@@ -9,7 +9,8 @@ const Header = () => {
     <header>
       <div className='wrapper' id='header-align'>
         <Navbar />
-        <div className="cta">
+        <div className="cta-wrapper">
+          <div className="cta">
           <div className="sub-wrapper"> 
             <p className='intro-text'>Reliable, Affordable <p><span>Clean Energy</span> for Homes</p> & Businesses.</p>
             <p className='sub-intro-text'>Ace 24 Energy Limited is a clean energy solutions company 
@@ -31,6 +32,7 @@ const Header = () => {
             </div>
           </div>
           <img className= "brand-image-1" src={Container} alt="Brand-image-1" />
+        </div>
         </div>
         <img className= "brand-image-1-2" src={Worksite} alt="Worksite-image" />
       </div>

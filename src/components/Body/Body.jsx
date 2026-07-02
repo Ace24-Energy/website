@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Body.css";
-import { AboutUs1, AboutUs2, Solutions, Executed, Qualities, Reviews, Faqs, ContactUs } from "../index";
+import { AboutUs1, AboutUs2, Executed, Qualities, Reviews, Faqs, ContactUs } from "../index";
 
 
 const Body = () => {
@@ -8,7 +8,6 @@ const Body = () => {
     <section className='main-section'>
      <AboutUs1 />
      <AboutUs2 />
-     <Solutions />
      <Executed />
      <Qualities />
      <Reviews />

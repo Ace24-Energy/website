@@ -18,8 +18,8 @@ const AboutUs2 = () => {
           <div className="inner-sub-container-1">
             <div className="sub-container-content-upper">
               <img src= {Statistics1} alt="Statistics" />
-              <p className='about-upper-title'>All-in-One Energy Platform</p>
-              <p className='about-upper'>Discover, finance, manage and maintain energy solutions in one place</p>
+              <p className='about-upper-title'>Lead With Pain</p>
+              <p className='about-upper'>Power cuts cut you, we fix that.</p>
             </div>
             <div className="sub-container-content-upper">
               <img src= {Statistics2} alt="Statistics" />
@@ -40,7 +40,7 @@ const AboutUs2 = () => {
             </div>
             <div className="sub-container-content-lower">
               <img src= {Statistics5} alt="Statistics" />
-              <p className='about-lower-title'>Nationwide Partner Network</p>
+              <p className='about-lower-title' id='last-about-lower-title'>Strategic Partners Across 6 Geopolitical Zones </p>
               <p className='about-lower'>Reliable service delivery across Nigeria</p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./AboutUs1.css";
-import { AboutUs1Image, Container2 } from "../../assets/";
+import { AboutUs2Image, Container2 } from "../../assets/";
 
 const AboutUs1 = () => {
   return (
@@ -8,7 +8,7 @@ const AboutUs1 = () => {
       <section className='wrapper' id='main-container-1'>
         <div className='intro-1-wrapper'><p className='intro-1'> Who we <span>are</span> </p></div>
         <div className="container">
-          <img src={AboutUs1Image} alt="AboutUs1Image" />
+          <img src={AboutUs2Image} alt="AboutUs1Image" />
           <div className="sub-container-1">
             <div className="text-container-1">
               <p className='text-1'>

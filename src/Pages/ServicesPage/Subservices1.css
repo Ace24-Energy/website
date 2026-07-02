@@ -125,7 +125,23 @@
 /* TABLET VIEW */
 @media (max-width: 1040px) {
     .sub-service-1 .wrapper {
-            padding-top: 0;
+        padding-top: 0;
+    }
+
+    .sub-service-1-content-wrapper {
+        width: 100%;
+    }
+
+    .sub-service-1-content-1 {
+        width: 100%;
+    }
+
+    .sub-service-1-content-2 {
+        width: 100%;
+    }
+
+    .sub-service-1-content-1-text-2 {
+        width: 100%;
     }
 }
 
@@ -138,7 +154,7 @@
         }
 
     .sub-service-1-content-wrapper {
-        width: 100vw;
+        width: 100%;
         height: fit-content;
         margin-top: 60px;
     }

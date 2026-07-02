@@ -113,6 +113,20 @@
     .sub-about-5-content-intro p {
         font-size: 36px;
     }
+
+    .sub-about-5-content-intro {
+        width: 100%;
+    }
+
+    .sub-about-5-content-text-1-box {
+        width: 100%;
+    }
+
+    .sub-about-5-content-text-1 {
+        width: 100%;
+        height: 56px;
+        text-align: center;
+    }
 }
 
 

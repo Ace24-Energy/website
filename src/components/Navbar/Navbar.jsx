@@ -20,14 +20,26 @@ const Navbar = () => {
     }, 100);
     };
 
-// SOLUTION NAVIGATION
-const navigatesolution = useNavigate();
-const goTosolution = () => {
-  navigatesolution("/");
+// TESTIMONIAL NAVIGATION
+const navigatetestimonial = useNavigate();
+const goTotestimonial = () => {
+  navigatetestimonial("/");
 
   setTimeout(() => {
     document
-      .getElementById("main-container-3")
+      .getElementById("testimonials")
+      ?.scrollIntoView({ behavior: "smooth" });
+  }, 100);
+  };
+
+  // MOBILE TESTIMONIAL NAVIGATION
+const navigatemobiletestimonial = useNavigate();
+const goTomobiletestimonial = () => {
+  navigatemobiletestimonial("/");
+
+  setTimeout(() => {
+    document
+      .getElementById("target-mobile-reviews")
       ?.scrollIntoView({ behavior: "smooth" });
   }, 100);
   };
@@ -49,14 +61,14 @@ const goTosolution = () => {
     <nav>
       <a href="/"><img src={Logo} alt="Brand-Logo" className='brand-logo'/></a>
       <ul className='nav-list'>
-        <li><Link to="/AboutUs"> About Us </Link></li>
+        <li><Link to="/AboutUs"> About Us </Link></li>        
+        <li><Link to="/Ourteam"> Our Team </Link></li>
+        <li><Link to="/Services"> Solutions </Link></li>
         <li>
-          <a onClick={goTosolution}>
-            Solutions
+          <a onClick={goTotestimonial}>
+            Testimonials
           </a>
         </li>
-        <li><Link to="/Ourteam"> Our Team </Link></li>
-        <li><Link to="/Services"> Services </Link></li>
         <li>
           <a onClick={goToFaq}>
             FAQ
@@ -78,10 +90,10 @@ const goTosolution = () => {
       </div>
        <ul className='menu-items'>
         <li><a href="/" onClick={() => setIsActive(false)}> Home </a></li>
-        <li><a href="/AboutUs" onClick={() => setIsActive(false)}> About Us </a></li>
-        <li><a href="/Ourteam" onClick={() => setIsActive(false)}>  Our Team </a></li>
-        <li><a onClick={goTosolution}> Solutions </a></li>
-        <li><a href="/Services" onClick={() => setIsActive(false)}>  Services </a></li>
+        <li><Link to="/AboutUs"> About Us </Link></li>        
+        <li><Link to="/Ourteam"> Our Team </Link></li>
+        <li><Link to="/Services"> Solutions </Link></li>
+        <li><a onClick={goTomobiletestimonial}> Testimonials </a></li>
         <li><a onClick={goToContact}> Contact Us </a></li>
       </ul>
     </div>

@@ -13,7 +13,7 @@ const Playstore = () => {
             <img src={Working3} alt="working-on-it-icon" />
             <div className="playstore-text">
                 <h2>
-                    Opps!
+                    Oops!
                 </h2>
                 <p>
                     We're currently working on our official application that has everything you need and would be available on both Andriod and Ios.

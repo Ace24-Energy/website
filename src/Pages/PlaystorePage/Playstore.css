@@ -68,6 +68,10 @@
     .playstore-error-section .wrapper {
         padding-top: 0;
     }
+
+    .playstore-text p {
+       width: 90%;
+    }
 }
 
 

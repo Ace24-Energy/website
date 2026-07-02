@@ -35,6 +35,10 @@
     animation: slide 8s infinite;
 }
 
+#slide-4 {
+    object-fit: fill;
+}
+
 @keyframes slide {
 
     0%,
@@ -79,13 +83,13 @@
     }
 
     .main-about-sub-slider-wrapper-2 {
-        max-width: 940px;
+        max-width: 760px;
         height: 250px;
         border-radius: 30px;
     }
 
     .main-about-sub-slider-wrapper-2 img {
-        min-width: 940px;
+        min-width: 760px;
         height: 250px;
         border-radius: 30px;
     }
