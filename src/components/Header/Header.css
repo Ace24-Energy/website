@@ -284,10 +284,11 @@ header {
 
     header .brand-image-1-2 {
         width: 345px;
-        height: 100px;
+        height: 120px;
         display: flex;
         margin-top: 500px;
         border-radius: 14px;
+        object-fit: cover;
     }
 
     header .intro-text {

@@ -42,7 +42,7 @@
 .group {
     display: flex;
     gap: 15px;
-    animation: spin 30s linear infinite;
+    animation: spin 60s linear infinite;
 }
 
 .executed-content {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
 import { Link } from "react-router";
-import {Logo, Arrow, Menu, Close} from "../../assets/";
+import {NewLogo, Arrow, Menu, Close} from "../../assets/";
 import { useNavigate } from "react-router";
 
 const Navbar = () => {
@@ -59,11 +59,11 @@ const goTomobiletestimonial = () => {
   return (
     <>
     <nav>
-      <a href="/"><img src={Logo} alt="Brand-Logo" className='brand-logo'/></a>
+      <a href="/"><img src={NewLogo} alt="Brand-Logo" className='brand-logo'/></a>
       <ul className='nav-list'>
         <li><Link to="/AboutUs"> About Us </Link></li>        
         <li><Link to="/Ourteam"> Our Team </Link></li>
-        <li><Link to="/Services"> Solutions </Link></li>
+        <li><Link to="/Services"> Our Services </Link></li>
         <li>
           <a onClick={goTotestimonial}>
             Testimonials
@@ -92,7 +92,7 @@ const goTomobiletestimonial = () => {
         <li><a href="/" onClick={() => setIsActive(false)}> Home </a></li>
         <li><Link to="/AboutUs"> About Us </Link></li>        
         <li><Link to="/Ourteam"> Our Team </Link></li>
-        <li><Link to="/Services"> Solutions </Link></li>
+        <li><Link to="/Services"> Our Services </Link></li>
         <li><a onClick={goTomobiletestimonial}> Testimonials </a></li>
         <li><a onClick={goToContact}> Contact Us </a></li>
       </ul>

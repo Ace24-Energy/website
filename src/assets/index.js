@@ -1,4 +1,5 @@
 import Logo from "./whiteLogo-colour-black.png";
+import NewLogo from "./updated-logo.png";
 import Container from "./Container.png";
 import Googleplay from "./google-play.png";
 import Arrow from "./right-arrow.png";
@@ -16,6 +17,8 @@ import ExecutedImage3 from "./execution-image3.png";
 import ExecutedImage4 from "./new-ace-img-1.JPG";
 import ExecutedImage5 from "./new-ace-img-2.JPG";
 import ExecutedImage6 from "./about-replace.jpg";
+import ExecutedImage7 from "./new-ace-img-5.JPG";
+import ExecutedImage8 from "./new-ace-img-6.JPG";
 import Location from "./location.png";
 import Verify from "./verify.png";
 import Arrowleft from "./arrow-left.png";
@@ -104,11 +107,11 @@ import NewExe2 from "./mobile-exe-8.JPG";
 
 
 
-export { Logo, Container, Googleplay, Arrow, AboutUs1Image, Statistics1, Statistics2, Statistics3, Statistics4, Statistics5, Leaf,
+export { Logo, NewLogo, Container, Googleplay, Arrow, AboutUs1Image, Statistics1, Statistics2, Statistics3, Statistics4, Statistics5, Leaf,
          ExecutedImage1, ExecutedImage2, ExecutedImage3, ExecutedImage4, ExecutedImage5, Location, Verify, Arrowleft, Arrowright, Avatar, Plus, Call, Email, Instagram,
          Facebook, Twitter, Linkedin, Whatsapp, Menu, Close, Overlay1, Overlay2, Overlay3, Logo2, Cancel, Worksite, Container2, MobileStat1,
          MobileStat2, MobileStat3, MobileStat4, MobileStat5, MobileSol1, MobileSol2, MobileSol3, MobileSol4, Star, Avatar2, Arrowdown, Arrowup,
          Energy, Aboutpageimg1, Aboutpageimg2, Aboutpageimg3, Blureffect1, Blureffect2, Checklist, Mission, Vision, Abouticon1, Abouticon2, Abouticon3, Abouticon4,
          Ourteamimg1, Ourteamicon1, Crown, Spanner, Headphone, Core1, Core2, Core3, Core4, Serviceicon1, Serviceicon2, Serviceicon3, Serviceicon4,
         Serviceicon5, Serviceicon6, Serviceicon7, Serviceicon8, Serviceicon9, Serviceicon10, Serviceicon11, Serviceicon12, Serviceicon13, Mark, ListCheck, SmallLeaf, Working, Working3,
-         NewExe1, NewExe2, AboutUs2Image, ExecutedImage6};
+         NewExe1, NewExe2, AboutUs2Image, ExecutedImage6, ExecutedImage7, ExecutedImage8};

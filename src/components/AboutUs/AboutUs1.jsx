@@ -1,6 +1,6 @@
 import React from 'react';
 import "./AboutUs1.css";
-import { AboutUs2Image, Container2 } from "../../assets/";
+import { AboutUs2Image, Container2 , Aboutpageimg1, ExecutedImage4} from "../../assets/";
 
 const AboutUs1 = () => {
   return (
@@ -39,7 +39,7 @@ const AboutUs1 = () => {
         <div className="mobile-intro-1-wrapper"><p>Who we are</p></div>
         <div className="mobile-wrapper-1">
           <div className="mobile-sub-container-1">
-            <img src={Container2} alt="mobile-brand-image" />
+            <img src={ExecutedImage4} alt="mobile-brand-image" />
             <p className='mobile-brand-text-1'>Ace 24 Energy Limited was founded with a clear purpose: to solve Africa’s energy challenges through accessible, high-quality clean energy solutions.</p>
             <p className='mobile-brand-text-2'>We serve individuals, small businesses, and large enterprises with end-to-end energy services — from system design and installation to financing, maintenance, and recycling.</p>
             <div className="mobile-main-1-text">

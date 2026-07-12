@@ -39,7 +39,7 @@ footer {
 
 .footer-logo img {
     width: 252px;
-    height: 102px;
+    height: 150px;
     cursor: pointer;
 }
 
@@ -106,7 +106,7 @@ footer {
     
         .footer-logo img {
             width: 160px;
-            height: 80px;
+            height: 100px;
         }
     
         .footer-text {

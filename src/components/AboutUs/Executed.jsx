@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from "react";
 import "./Executed.css";
-import { ExecutedImage1, ExecutedImage2, ExecutedImage3, ExecutedImage4, ExecutedImage5, Location } from '../../assets';
+import { ExecutedImage1, ExecutedImage2, ExecutedImage3, ExecutedImage4, ExecutedImage5, ExecutedImage6, Location, ExecutedImage7, NewExe1 } from '../../assets';
 
 
 const Executed = () => {
@@ -91,7 +91,7 @@ const Executed = () => {
             <div className="sub-container-4">
                 <div className="group">
                     <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage1} alt="Executed-project-image" />
+                        <img className="execution-image" src={ExecutedImage4} alt="Executed-project-image" />
                         <div className="execution-name"><p>30KVA Solar Power System</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Lekki, Lagos</p></div>
                         <div className="execution-details">
@@ -107,7 +107,7 @@ const Executed = () => {
                     </div>
 
                     <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage2} alt="Executed-project-image" />
+                        <img className="execution-image" src={ExecutedImage7} alt="Executed-project-image" />
                         <div className="execution-name"><p>Solar Power Installation</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Anchor Services, Lagos</p></div>
                         <div className="execution-details">
@@ -123,7 +123,7 @@ const Executed = () => {
                     </div>
 
                     <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage3} alt="Executed-project-image" />
+                        <img className="execution-image" src={ExecutedImage2} alt="Executed-project-image" />
                         <div className="execution-name"><p>Solar-Powered ICT Centre</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>North-East Development Commission (NEDC)</p></div>
                         <div className="execution-details">
@@ -137,53 +137,55 @@ const Executed = () => {
                     </div>
 
                     <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage4} alt="Executed-project-image" />
-                        <div className="execution-name"><p>Solar-Powered ICT Centre</p></div>
-                        <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>North-East Development Commission (NEDC)</p></div>
+                        <img className="execution-image" src={ExecutedImage5} alt="Executed-project-image" />
+                        <div className="execution-name"><p>10kVA Solar Installation EON Services</p></div>
+                        <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Lagos State</p></div>
                         <div className="execution-details">
-                            <p>Designed and executed a complete solar power system for a government-backed ICT centre.</p>
-                            <p className='outcome'>Outcome:</p>
+                            <p>Delivered a compact but highly efficient power system featuring.</p>
+                            <ul>
+                                <li>10kVA inverter</li>
+                                <li>10kWh battery backup</li>
+                            </ul>
                             <p className='outcome-details'>
-                                Sustainable energy supporting daily ICT operations and
-                                training programs.
+                                Outcome: Steady power support for business continuity.
                             </p> 
                         </div>
                     </div>
 
                      <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage5} alt="Executed-project-image" />
-                        <div className="execution-name"><p>30KVA Solar Power System</p></div>
-                        <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Lekki, Lagos</p></div>
+                        <img className="execution-image" src={ExecutedImage6} alt="Executed-project-image" />
+                        <div className="execution-name"><p>20kVA Solar System installation</p></div>
+                        <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Ondo State</p></div>
                         <div className="execution-details">
-                            <p>Delivered and installed a comprehensive renewable energy solution for a private residence, featuring: </p>
+                            <p> Implented a residential energy solution including: </p>
                             <ul>
-                                <li>30kVA inverter system</li>
-                                <li>96kWh battery backup</li>
-                                <li>48 units of 580W solar panels</li>
+                                <li>20kVA solar inverter</li>
+                                <li>30kWh backup battery</li>
+                                <li>12kWh solar array</li>
                             </ul>
                             <p className='outcome'>Outcome:</p>
-                            <p className='outcome-details'>Full, stable power supply with enhanced energy autonomy.</p> 
+                            <p className='outcome-details'>Consistent, reliable energy supply for household needs</p> 
                         </div>
                     </div>
 
                     <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage2} alt="Executed-project-image" />
-                        <div className="execution-name"><p>Solar Power Installation</p></div>
-                        <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Anchor Services, Lagos</p></div>
+                        <img className="execution-image" src={ExecutedImage3} alt="Executed-project-image" />
+                        <div className="execution-name"><p>45kVA Full Autonomy Off-Grid System</p></div>
+                        <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Private Residence</p></div>
                         <div className="execution-details">
-                            <p>Successfully deployed a hybrid solar power system comprising: </p>
+                            <p>A high-capacity solar installation engineered to power an entire residence 24/7</p>
                             <ul>
-                                <li>15kVA inverter</li>
-                                <li>30kWh battery bank</li>
-                                <li>9.6kW solar array</li>
+                                <li>45kVA inverter</li>
+                                <li>120kWh battery bank</li>
+                                <li>Full solar array for total off-grid autonomy</li>
                             </ul>
                             <p className='outcome'>Outcome:</p>
-                            <p className='outcome-details'>Improved operational stability and reduced diesel dependency.</p> 
+                            <p className='outcome-details'>Complete independence from the national grid</p> 
                         </div>
                     </div>
-
+{/* 
                     <div className="executed-content">
-                        <img className="execution-image" src={ExecutedImage5} alt="Executed-project-image" />
+                        <img className="execution-image" src={ExecutedImage7} alt="Executed-project-image" />
                         <div className="execution-name"><p>Solar-Powered ICT Centre</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>North-East Development Commission (NEDC)</p></div>
                         <div className="execution-details">
@@ -236,7 +238,7 @@ const Executed = () => {
                                 training programs.
                             </p> 
                         </div>
-                    </div>
+                    </div> */}
             </div>
             
                    

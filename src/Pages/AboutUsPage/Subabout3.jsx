@@ -60,7 +60,7 @@ const Subabout3 = () => {
                      <div className="sub-about-3-content-2-box-2">
                         <div className="percent-tag">
                             <p className="percent-tag-text-1">
-                                500+
+                                63+
                             </p>
                             <p className="percent-tag-text-2">
                                 Projects Completed

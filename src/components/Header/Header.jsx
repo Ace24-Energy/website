@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
-import {Container, Googleplay, Worksite} from "../../assets/";
+import {Container, Googleplay, Worksite, Aboutpageimg1} from "../../assets/";
 import { Link } from "react-router";
 
 const Header = () => {
@@ -34,7 +34,7 @@ const Header = () => {
           <img className= "brand-image-1" src={Container} alt="Brand-image-1" />
         </div>
         </div>
-        <img className= "brand-image-1-2" src={Worksite} alt="Worksite-image" />
+        <img className= "brand-image-1-2" src={Aboutpageimg1} alt="Worksite-image" />
       </div>
     </header>
   )

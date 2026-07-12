@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import {Logo2} from "../../assets/";
+import {NewLogo} from "../../assets/";
 import { Link } from "react-router";
 import { useNavigate } from "react-router";
 
@@ -49,7 +49,7 @@ const Footer = () => {
       <footer>
         <div className="wrapper" id="footer-container">
           <div className="footer-logo">
-            <a href="/"><img src={Logo2} alt="Brand-Logo" /></a>
+            <a href="/"><img src={NewLogo} alt="Brand-Logo" /></a>
           </div>
           <div className="footer-text">
             <ul>

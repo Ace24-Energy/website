@@ -32,38 +32,48 @@
     border-radius: 21px;
     object-fit: cover;
     scroll-snap-align: start;
-    animation: slide 8s infinite;
+    animation: slide 15s infinite;
 }
 
 #slide-4 {
-    object-fit: fill;
+    object-fit: cover;
 }
 
 @keyframes slide {
 
     0%,
-    20% {
-        transform: translateX(0);
-    }
-
-    25%,
-    45% {
-        transform: translateX(-100%);
-    }
-
-    50%,
-    70% {
-        transform: translateX(-200%);
-    }
-
-    75%,
-    95% {
-        transform: translateX(-300%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
+        13% {
+            transform: translateX(0);
+        }
+    
+        16%,
+        29% {
+            transform: translateX(-100%);
+        }
+    
+        32%,
+        45% {
+            transform: translateX(-200%);
+        }
+    
+        48%,
+        61% {
+            transform: translateX(-300%);
+        }
+    
+        64%,
+        77% {
+            transform: translateX(-400%);
+        }
+    
+        80%,
+        93% {
+            transform: translateX(-500%);
+        }
+    
+        100% {
+            transform: translateX(0);
+        }
 }
 
 
