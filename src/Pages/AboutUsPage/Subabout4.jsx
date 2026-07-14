@@ -8,7 +8,7 @@ const Subabout4 = () => {
   return (
     <div className="sub-about-4">
         <div className="sub-about-4-content">
-            <div className="sub-about-4-content-box">
+            <div className="sub-about-4-content-box box-fit-1">
                 <div className="sub-about-4-content-box-icon">
                     <img src={Mission} alt="Mission-icon" />
                 </div>

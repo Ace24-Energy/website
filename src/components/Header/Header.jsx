@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
-import {Container, Googleplay, Worksite, Aboutpageimg1} from "../../assets/";
+import {Container, Googleplay, Appstore, Worksite, Aboutpageimg1} from "../../assets/";
 import { Link } from "react-router";
 
 const Header = () => {
@@ -28,7 +28,15 @@ const Header = () => {
                   </div>  
                 </button>
               </Link> 
-              <a href="https://wa.me/+2347043030570" target='_blank'><button className='whatsapp-button'><p>DM us on Whatsapp</p></button></a> 
+              <Link to="/Playstore">
+                <button className='app-store-button'>
+                  <img src={Appstore} alt="google-play" /> 
+                  <div className="button-text">
+                    <p className='first-text'>GET IT ON</p> 
+                    <p className='second-text'>App store</p>
+                  </div>  
+                </button>
+              </Link> 
             </div>
           </div>
           <img className= "brand-image-1" src={Container} alt="Brand-image-1" />

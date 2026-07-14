@@ -2,6 +2,7 @@ import Logo from "./whiteLogo-colour-black.png";
 import NewLogo from "./updated-logo.png";
 import Container from "./Container.png";
 import Googleplay from "./google-play.png";
+import Appstore from "./app-store.png";
 import Arrow from "./right-arrow.png";
 import AboutUs1Image from "./aboutUs-1.png";
 import AboutUs2Image from "./replace-home-img.jpg";
@@ -107,7 +108,7 @@ import NewExe2 from "./mobile-exe-8.JPG";
 
 
 
-export { Logo, NewLogo, Container, Googleplay, Arrow, AboutUs1Image, Statistics1, Statistics2, Statistics3, Statistics4, Statistics5, Leaf,
+export { Logo, NewLogo, Container, Googleplay, Appstore, Arrow, AboutUs1Image, Statistics1, Statistics2, Statistics3, Statistics4, Statistics5, Leaf,
          ExecutedImage1, ExecutedImage2, ExecutedImage3, ExecutedImage4, ExecutedImage5, Location, Verify, Arrowleft, Arrowright, Avatar, Plus, Call, Email, Instagram,
          Facebook, Twitter, Linkedin, Whatsapp, Menu, Close, Overlay1, Overlay2, Overlay3, Logo2, Cancel, Worksite, Container2, MobileStat1,
          MobileStat2, MobileStat3, MobileStat4, MobileStat5, MobileSol1, MobileSol2, MobileSol3, MobileSol4, Star, Avatar2, Arrowdown, Arrowup,

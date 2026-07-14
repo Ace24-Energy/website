@@ -25,12 +25,12 @@ const Qualities = () => {
               <p className="quality-text-1">Installations</p>
               <p className="quality-text-2">Completed successfully</p>
             </div>
-            <div className="quality-content-box">
+            {/* <div className="quality-content-box">
               <img src={Overlay3} alt="Quality-icon" />
               <p className="quality-amount">₦30b</p>
               <p className="quality-text-1" id='ajust-quality-text'>Projected Revenue</p>
               <p className="quality-text-2">In 3 years</p>
-            </div>
+            </div> */}
           </div>
           <div className="quality-content-bottom">
             <div className="quality-content-box">

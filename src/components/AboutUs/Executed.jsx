@@ -138,13 +138,13 @@ const Executed = () => {
 
                     <div className="executed-content">
                         <img className="execution-image" src={ExecutedImage5} alt="Executed-project-image" />
-                        <div className="execution-name"><p>10kVA Solar Installation EON Services</p></div>
+                        <div className="execution-name"><p>20kVA Solar Installation EON Services</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Lagos State</p></div>
                         <div className="execution-details">
                             <p>Delivered a compact but highly efficient power system featuring.</p>
                             <ul>
-                                <li>10kVA inverter</li>
-                                <li>10kWh battery backup</li>
+                                <li>20kVA inverter</li>
+                                <li>30kWh battery backup</li>
                             </ul>
                             <p className='outcome-details'>
                                 Outcome: Steady power support for business continuity.
@@ -170,13 +170,13 @@ const Executed = () => {
 
                     <div className="executed-content">
                         <img className="execution-image" src={ExecutedImage3} alt="Executed-project-image" />
-                        <div className="execution-name"><p>45kVA Full Autonomy Off-Grid System</p></div>
+                        <div className="execution-name"><p>20kVA Full Autonomy Off-Grid System</p></div>
                         <div className="execution-location"><img className= "location-icon" src={Location} alt="Location-icon" /><p>Private Residence</p></div>
                         <div className="execution-details">
                             <p>A high-capacity solar installation engineered to power an entire residence 24/7</p>
                             <ul>
-                                <li>45kVA inverter</li>
-                                <li>120kWh battery bank</li>
+                                <li>20kVA inverter</li>
+                                <li>20kWh battery bank</li>
                                 <li>Full solar array for total off-grid autonomy</li>
                             </ul>
                             <p className='outcome'>Outcome:</p>

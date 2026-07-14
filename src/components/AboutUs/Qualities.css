@@ -46,7 +46,7 @@
 
 .quality-content-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     min-width: 790px;
 }
 
@@ -151,7 +151,6 @@
 
     .quality-content-top {
         display: flex;
-        justify-content: space-between;
         min-width: 565px;
     }
 
@@ -219,7 +218,7 @@
 @media (max-width: 720px) {
     #main-container-5 {
             max-width: 100%;
-            height: 650px;
+            height: 570px;
             background-color: var(--brand-primary-color);
             padding-top: 10px;
             border-radius: 0;
@@ -231,6 +230,7 @@
             justify-items: normal;
             text-align: center;
             width: 300px;
+            margin-bottom: 20px;
         }
 
         .quality-intro-text-1 {
@@ -252,10 +252,11 @@
 
         .quality-contents {
             max-width: fit-content;
-            height: 500px;
+            height: 400px;
             margin-top: 4px;
             margin-bottom: 3px;
             display: flex;
+            gap: 10px;
             flex-direction: column;
             justify-self: normal;
             justify-content: center;

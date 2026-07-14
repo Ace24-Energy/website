@@ -122,20 +122,51 @@ header .app-buttons .google-play-button .button-text .second-text{
     margin-top: 0px;
 }
 
-header .app-buttons .whatsapp-button {
+
+header .app-buttons .app-store-button {
     height: 48px;
     width: 182px;
-    background-color: var(--brand-primary-color);
+    display: flex;
+    background-color: #ffffff76;
     color: var(--white-text-color);
-    border: none;
+    border: 1.5px solid #000000;
     border-radius: 30px;
+    justify-content: center;
+    align-items: center;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
-header .app-buttons .whatsapp-button:hover {
+header .app-buttons .app-store-button:hover {
     transform: scale(1.1);
 }
+
+header .app-buttons .app-store-button img {
+    height: 21px;
+    width: 21px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+header .app-buttons .app-store-button .button-text {
+    justify-items: start;
+    margin-top: 4px;
+    color: #000000;
+}
+
+header .app-buttons .app-store-button .button-text .first-text {
+    font-size: 8px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+
+header .app-buttons .app-store-button .button-text .second-text {
+    font-size: 14px;
+    margin-top: 0px;
+    color: #000000;
+}
+
+
 
 
 
@@ -241,18 +272,40 @@ header {
         margin-top: 0px;
     }
 
-    header .app-buttons .whatsapp-button {
-        height: 38px;
-        width: 140px;
-    }
 
-    header .app-buttons .whatsapp-button p {
-        font-size: 10px;
-    }
+         header .app-buttons .app-store-button {
+             height: 38px;
+             width: 140px;
+             border: 1px solid #000000;
+         }
+    
+         header .app-buttons .app-store-button:hover {
+             transform: scale(1.1);
+         }
+    
+         header .app-buttons .app-store-button img {
+             height: 19px;
+             width: 19px;
+             margin-left: 5px;
+             margin-right: 10px;
+         }
+    
+         header .app-buttons .app-store-button .button-text {
+             justify-items: start;
+             margin-top: 4px;
+         }
+    
+         header .app-buttons .app-store-button .button-text .first-text {
+             font-size: 8px;
+             margin-bottom: 0px;
+         }
+    
+         header .app-buttons .app-store-button .button-text .second-text {
+             font-size: 14px;
+             margin-top: 0px;
+         }
 
-    header .app-buttons .whatsapp-button:hover {
-        transform: scale(1.1);
-    }
+   
 }
 
 
@@ -361,13 +414,33 @@ header {
         margin-bottom: 10px;
     }
 
-    header .app-buttons .whatsapp-button {
-        width: 100px;
-        height: 25px;
-    }
 
-    header .app-buttons .whatsapp-button p {
-        font-size: 8px;
-        max-width: 100%;
-    }
+         header .app-buttons .app-store-button {
+             width: 100px;
+             height: 25px;
+             border: 1.5px solid #00000093;
+         }
+    
+         header .app-buttons .app-store-button img {
+             height: 14px;
+             width: 14px;
+             margin-left: 2px;
+             margin-right: 5px;
+         }
+    
+         .button-text {
+             min-height: fit-content;
+         }
+    
+         header .app-buttons .app-store-button .button-text .first-text {
+             font-size: 8px;
+         }
+    
+         header .app-buttons .app-store-button .button-text .second-text {
+             font-size: 8px;
+             margin-bottom: 10px;
+         }
+
+   
+
 }

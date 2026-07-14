@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 45px;
 }
 
 .sub-about-4-content {
@@ -124,6 +125,10 @@
         align-items: center;
         padding-left: 0;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+    }
+
+    .box-fit-1 {
+        padding-top: 20px;
     }
 
     .sub-about-4-content-box-icon {
