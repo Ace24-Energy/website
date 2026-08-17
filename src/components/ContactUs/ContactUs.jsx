@@ -12,9 +12,9 @@ const ContactUs = () => {
       </p>
       <div className="contact-box">
         <div className="box-1">
-          <div><img src={Call} alt="Call-Icon" /> <p>+234 (0) 704 125 9864</p></div>
-          <div><img src={Call} alt="Call-Icon" /> <p>0902 222 0160</p></div>
-          <div><img src={Email} alt="Sms-Icon" /> <p>info@ace24energy.com</p></div>
+          <div><img src={Call} alt="Call-Icon" /> <p>+2347043030570</p></div>
+          <div><img src={Call} alt="Call-Icon" /> <p>+234902 222 0160</p></div>
+          <div><img src={Email} alt="Sms-Icon" /> <p>info@ace24.energy</p></div>
         </div>
         <div className="box-address">
           <img src={Location} alt="Location-Icon" /> <p>145 Ogunisi road, Hotel bus stop, Omole, Ikeja, Lagos.</p>
