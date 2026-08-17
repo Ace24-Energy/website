@@ -4,7 +4,8 @@
     background-repeat: no-repeat;
     background-position: right;
     position: relative;
-    height: 370px;
+    min-height: 370px;
+    padding: 40px 0;
     margin-top: 120px;
     border-radius: 32px;
     display: flex;
@@ -39,9 +40,11 @@
     background-color: #00542747;
     width: 740px;
     min-height: 112px;
+    padding: 20px 0;
     margin-top: 20px;
     margin-bottom: 45px;
     border-radius: 20px;
+    gap: 10px;
 }
 
 .contact-box img {
@@ -57,11 +60,13 @@
 
 .box-1 {
     display: flex;
-    gap: 15px;
-    width: 600px;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+    width: 100%;
+    max-width: 680px;
     justify-content: center;
     margin-bottom: 0;
-    height: 32px;
+    height: fit-content;
 }
 
 .box-1 div {
@@ -71,6 +76,21 @@
 
 .box-1 img {
     cursor: default;
+}
+
+.box-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 680px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.box-address img {
+    cursor: default;
+    flex-shrink: 0;
 }
 
 .box-2 {
@@ -97,7 +117,8 @@
 /* TABLET VIEW */
 @media (max-width: 1040px) {
         #contactus-section {
-            height: 320px;
+            min-height: 320px;
+            padding: 30px 0;
             margin-top: 150px;
             border-radius: 0;
             min-width: 100%;
@@ -130,11 +151,13 @@
     
         .box-1 {
             display: flex;
-            gap: 10px;
-            width: 500px;
-            height: 32px;
+            flex-wrap: wrap;
+            gap: 10px 20px;
+            width: 100%;
+            max-width: 500px;
+            height: fit-content;
         }
-    
+
         .box-1 div {
             display: flex;
             align-items: center;
@@ -143,7 +166,16 @@
         .box-1 p {
             font-size: 14px;
         }
-    
+
+        .box-address {
+            max-width: 500px;
+            padding: 0 20px;
+        }
+
+        .box-address p {
+            font-size: 14px;
+        }
+
         .box-2 {
             display: flex;
             justify-content: center;
@@ -158,12 +190,10 @@
 /* MOBILE-PHONE VIEW */
 @media (max-width: 720px) {
     #contactus-section {
-        height: 230px;
+        min-height: 230px;
         max-width: 100%;
         margin-top: 0;
         border-radius: 0;
-        padding-top: 20px;
-        padding-bottom: 10px;
         justify-content: space-between;
         padding-top: 45px;
         padding-bottom: 45px;
@@ -191,13 +221,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         background-color: #00542747;
         max-width: 100%;
         min-height: 40px;
+        padding: 12px 15px;
         margin-top: 0;
         margin-bottom: 0;
         border-radius: 0;
+        gap: 8px;
     }
 
     .contact-box img {
@@ -214,12 +246,17 @@
 
     .box-1 {
         display: flex;
-        gap: 10px;
-        width: max-content;
+        flex-wrap: wrap;
+        gap: 6px 10px;
+        width: 100%;
         justify-content: center;
         margin-bottom: 0;
-        margin-right: 10px;
-        height: 32px;
+        height: fit-content;
+    }
+
+    .box-address {
+        max-width: 100%;
+        padding: 0 10px;
     }
 
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./ContactUs.css";
-import {Call, Email, Instagram, Facebook, Twitter, Linkedin, Whatsapp} from "../../assets/";
+import {Call, Email, Location, Instagram, Facebook, Twitter, Linkedin, Whatsapp} from "../../assets/";
 
 
 const ContactUs = () => {
@@ -13,7 +13,11 @@ const ContactUs = () => {
       <div className="contact-box">
         <div className="box-1">
           <div><img src={Call} alt="Call-Icon" /> <p>+234 (0) 704 125 9864</p></div>
+          <div><img src={Call} alt="Call-Icon" /> <p>0902 222 0160</p></div>
           <div><img src={Email} alt="Sms-Icon" /> <p>info@ace24energy.com</p></div>
+        </div>
+        <div className="box-address">
+          <img src={Location} alt="Location-Icon" /> <p>145 Ogunisi road, Hotel bus stop, Omole, Ikeja, Lagos.</p>
         </div>
         <div className="box-2">
           <a href="https://www.instagram.com/ace24energy" target='blank'><img src={Instagram} alt="Instagram-Icon" /></a>
