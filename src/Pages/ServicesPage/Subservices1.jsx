@@ -12,9 +12,6 @@ const Subservices1 = () => {
             </div>
             <div className="sub-service-1-content-wrapper">
                 <div className="sub-service-1-content-1">
-                    <div className="sub-service-1-content-1-title">
-                        <p>OUR SERVICES</p>
-                    </div>
                     <div className="sub-service-1-content-1-text-1">
                         <p>A full range of energy solutions, in one place.</p>
                     </div>

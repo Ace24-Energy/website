@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import "./Subabout1.css";
-import { Energy } from '../../assets';
 
 const Subabout1 = () => {
   return (
@@ -9,7 +8,6 @@ const Subabout1 = () => {
       <div className="wrapper">
         <Navbar />
         <div className="main-about-sub-wrapper">
-            <div className="about-tag"><img src={Energy} alt="Energy-Icon" /><p>About ACE24 ENERGY</p></div>
             <div className="main-about-intro-1"><p>Who We <span>Are</span> </p></div>
             <div className="main-about-intro-2">
              <p>

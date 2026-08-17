@@ -38,21 +38,11 @@
 
 .sub-service-1-content-1 {
    width: 896px;
-   height: 300px;
+   height: fit-content;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-}
-
-.sub-service-1-content-1-title {
-    width: 143px;
-}
-
-.sub-service-1-content-1-title p {
-    font-size: 16px;
-    color: #097F23;
-    text-align: center;
 }
 
 .sub-service-1-content-1-text-1 {
@@ -162,15 +152,6 @@
     .sub-service-1-content-1 {
         width: 100%;
         height: fit-content;
-    }
-
-    .sub-service-1-content-1-title {
-        width: fit-content;
-        margin-bottom: 0;
-    }
-
-    .sub-service-1-content-1-title p {
-        font-size: 14px;
     }
 
     .sub-service-1-content-1-text-1 {
