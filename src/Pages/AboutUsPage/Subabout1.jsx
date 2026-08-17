@@ -11,8 +11,8 @@ const Subabout1 = () => {
             <div className="main-about-intro-1"><p>Who We <span>Are</span> </p></div>
             <div className="main-about-intro-2">
              <p>
-                About Us At ACE24 ENERGY, we understand the daily frustrations that come with Nigeria's unstable power
-                supply — noisy generators, soaring fuel costs, unreliable grid supply, and endless tariff hikes.
+                At ACE24 ENERGY, we understand the daily frustrations that come with Nigeria's unstable power
+                supply, noisy generators, soaring fuel costs, unreliable grid supply, and endless tariff hikes.
              </p>
             </div>
         </div>
