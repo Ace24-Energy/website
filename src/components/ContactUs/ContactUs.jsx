@@ -12,8 +12,8 @@ const ContactUs = () => {
       </p>
       <div className="contact-box">
         <div className="box-1">
-          <div><img src={Call} alt="Call-Icon" /> <p>+2347043030570</p></div>
-          <div><img src={Call} alt="Call-Icon" /> <p>+234902 222 0160</p></div>
+          <div><img src={Call} alt="Call-Icon" /> <p>+234 704 3030 570</p></div>
+          <div><img src={Call} alt="Call-Icon" /> <p>+234 902 222 0160</p></div>
           <div><img src={Email} alt="Sms-Icon" /> <p>info@ace24.energy</p></div>
         </div>
         <div className="box-address">
