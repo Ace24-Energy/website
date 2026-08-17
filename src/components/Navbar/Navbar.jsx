@@ -61,7 +61,8 @@ const goTomobiletestimonial = () => {
     <nav>
       <a href="/"><img src={NewLogo} alt="Brand-Logo" className='brand-logo'/></a>
       <ul className='nav-list'>
-        <li><Link to="/AboutUs"> About Us </Link></li>        
+        <li><Link to="/"> Home </Link></li>
+        <li><Link to="/AboutUs"> About Us </Link></li>
         <li><Link to="/Ourteam"> Our Team </Link></li>
         <li><Link to="/Services"> Our Services </Link></li>
         <li>
